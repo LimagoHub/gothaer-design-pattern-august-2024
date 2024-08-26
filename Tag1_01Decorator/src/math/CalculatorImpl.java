@@ -7,7 +7,12 @@ public class CalculatorImpl implements Calculator {
 
     @Override
     public double add(double a, double b) {
-       return a + b;
+        try {
+            Thread.sleep(10);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+        return a + b;
     }
 
     @Override
