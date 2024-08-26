@@ -1,0 +1,4 @@
+package trafficlight;
+
+public class TrafficLight {
+}
