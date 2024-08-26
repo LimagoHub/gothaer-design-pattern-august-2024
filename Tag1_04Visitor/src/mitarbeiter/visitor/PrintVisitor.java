@@ -4,7 +4,7 @@ import mitarbeiter.AbstractMitarbeiter;
 import mitarbeiter.Gehaltsempfaenger;
 import mitarbeiter.Lohnempfaenger;
 
-public class PrintVisitor implements MitarbeiterVisitor{
+public class PrintVisitor extends AbstractMitarbeiterVisitor {
     @Override
     public void visit(final Gehaltsempfaenger gehaltsempfaenger) {
         print(gehaltsempfaenger);
