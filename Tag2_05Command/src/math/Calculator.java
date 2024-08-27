@@ -4,6 +4,7 @@ public class Calculator {
 
     private static final Calculator instance = new Calculator();
 
+
     public static Calculator getInstance() {
         return instance;
     }
@@ -17,9 +18,10 @@ public class Calculator {
     }
 
     // Boese!!!!
-    public void setMemory(final double memory) {
+    private void setMemory(final double memory) {
         this.memory = memory;
     }
+
 
     public void add(double value) {
         memory += value;
@@ -40,5 +42,27 @@ public class Calculator {
 
     public void clear() {
         memory = 0.0;
+    }
+
+    public CalculatorMemento getMemento() {
+        return new MyCalculatorMemento(memory);
+    }
+
+    public void setMemento(final CalculatorMemento memento) {
+        MyCalculatorMemento myMemento = (MyCalculatorMemento) memento;
+        setMemory(myMemento.getMemory());
+
+    }
+
+    private static class MyCalculatorMemento implements CalculatorMemento {
+        private final double memory;
+
+        public MyCalculatorMemento(final double memory) {
+            this.memory = memory;
+        }
+
+        public double getMemory() {
+            return memory;
+        }
     }
 }

@@ -1,0 +1,1281 @@
+﻿2024-01-21 15:57:34, Info                         [reagentc.exe] ------------------------------------------------------
+2024-01-21 15:57:34, Info                         [reagentc.exe] -----Executing command line: "C:\Windows\System32\reagentc.exe"  /enable-----
+2024-01-21 15:57:34, Info                         [reagentc.exe] ------------------------------------------------------
+2024-01-21 15:57:34, Info                         [reagentc.exe] Enter WinRECheckGuid
+2024-01-21 15:57:34, Info                         [reagentc.exe] Parameter: TargetOsGuid: : NULL 
+2024-01-21 15:57:34, Info                         [reagentc.exe] Exit WinRECheckGuid return error code: 0x0
+2024-01-21 15:57:34, Info                         [reagentc.exe] Enter WinReInstall
+2024-01-21 15:57:34, Info                         [reagentc.exe] Parameter: ReInstallBecauseOfBitlocker: 0
+2024-01-21 15:57:34, Info                         [reagentc.exe] --Install on target OS step 1: collect info like partition list, loading reagent.xml, source winre.wim and partition
+2024-01-21 15:57:34, Info                         [reagentc.exe] Enumerate and log all fixed partitions:
+2024-01-21 15:57:34, Info                         [reagentc.exe] --Partition info--
+2024-01-21 15:57:34, Info                         [reagentc.exe] VolumeName: \\?\Volume{adf24af1-5ea0-43d7-a050-56a48c69f5aa}, PartitionName: \\?\GLOBALROOT\device\harddisk0\partition1
+2024-01-21 15:57:34, Info                         [reagentc.exe] Partition number: 1, offset: 1048576, free space: 4119552, total space: 100663296
+2024-01-21 15:57:34, Info                         [reagentc.exe] DiskNumber:0, DiskSignature:0, NTFS:0, Mbr:0, Active:0, Boot:0, BitlockerEnabled:0
+2024-01-21 15:57:34, Info                         [reagentc.exe] GPT partition GUID:: {C12A7328-F81F-11D2-BA4B-00A0C93EC93B} 
+2024-01-21 15:57:34, Info                         [reagentc.exe] DiskId: {8D676199-B565-423A-822A-2700AFE6650B} 
+2024-01-21 15:57:34, Info                         [reagentc.exe] --Partition info--
+2024-01-21 15:57:34, Info                         [reagentc.exe] VolumeName: \\?\Volume{abb6c75e-0000-0000-0000-100000000000}, PartitionName: \\?\GLOBALROOT\device\harddisk1\partition1
+2024-01-21 15:57:34, Info                         [reagentc.exe] Partition number: 1, offset: 1048576, free space: 477011357696, total space: 750154272768
+2024-01-21 15:57:34, Info                         [reagentc.exe] DiskNumber:1, DiskSignature:-1414084770, NTFS:1, Mbr:1, Active:0, Boot:0, BitlockerEnabled:0
+2024-01-21 15:57:34, Info                         [reagentc.exe] MBR partition id: 0x7
+2024-01-21 15:57:34, Info                         [reagentc.exe] DiskId: {00000000-0000-0000-0000-000000000000} 
+2024-01-21 15:57:34, Info                         [reagentc.exe] --Partition info--
+2024-01-21 15:57:34, Info                         [reagentc.exe] VolumeName: \\?\Volume{09414a30-b102-4b8e-cd19-03c738b34c2a}, PartitionName: \\?\GLOBALROOT\device\harddisk0\partition5
+2024-01-21 15:57:34, Info                         [reagentc.exe] Partition number: 5, offset: 1023059951616, free space: 22654976, total space: 1138749440
+2024-01-21 15:57:34, Info                         [reagentc.exe] DiskNumber:0, DiskSignature:0, NTFS:1, Mbr:0, Active:0, Boot:0, BitlockerEnabled:0
+2024-01-21 15:57:34, Info                         [reagentc.exe] GPT partition GUID:: {DE94BBA4-06D1-4D40-A16A-BFD50179D6AC} 
+2024-01-21 15:57:34, Info                         [reagentc.exe] DiskId: {8D676199-B565-423A-822A-2700AFE6650B} 
+2024-01-21 15:57:34, Info                         [reagentc.exe] --Partition info--
+2024-01-21 15:57:34, Info                         [reagentc.exe] VolumeName: \\?\Volume{e61184a0-5287-479d-85f0-349e5f8d2de6}, PartitionName: \\?\GLOBALROOT\device\harddisk0\partition4
+2024-01-21 15:57:34, Info                         [reagentc.exe] Partition number: 4, offset: 1022512594944, free space: 93577216, total space: 546304000
+2024-01-21 15:57:34, Info                         [reagentc.exe] DiskNumber:0, DiskSignature:0, NTFS:1, Mbr:0, Active:0, Boot:0, BitlockerEnabled:0
+2024-01-21 15:57:34, Info                         [reagentc.exe] GPT partition GUID:: {DE94BBA4-06D1-4D40-A16A-BFD50179D6AC} 
+2024-01-21 15:57:34, Info                         [reagentc.exe] DiskId: {8D676199-B565-423A-822A-2700AFE6650B} 
+2024-01-21 15:57:34, Info                         [reagentc.exe] --Partition info--
+2024-01-21 15:57:34, Info                         [reagentc.exe] VolumeName: \\?\Volume{e6d298c3-2087-42c9-8c77-fa167fe96314}, PartitionName: \\?\GLOBALROOT\device\harddisk0\partition3
+2024-01-21 15:57:34, Info                         [reagentc.exe] Partition number: 3, offset: 122683392, free space: 396124295168, total space: 1022389907456
+2024-01-21 15:57:34, Info                         [reagentc.exe] DiskNumber:0, DiskSignature:0, NTFS:1, Mbr:0, Active:0, Boot:1, BitlockerEnabled:0
+2024-01-21 15:57:34, Info                         [reagentc.exe] GPT partition GUID:: {EBD0A0A2-B9E5-4433-87C0-68B6B72699C7} 
+2024-01-21 15:57:34, Info                         [reagentc.exe] DiskId: {8D676199-B565-423A-822A-2700AFE6650B} 
+2024-01-21 15:57:34, Info                         [reagentc.exe] Get downlevel ReAgent config
+2024-01-21 15:57:34, Info                         [reagentc.exe]  Downlevel config file path: \Recovery\ReAgentOld.xml
+2024-01-21 15:57:34, Info                         [reagentc.exe]  Checking for downlevel WinRE installation.
+2024-01-21 15:57:34, Info                         [reagentc.exe] First round search
+2024-01-21 15:57:34, Info                         [reagentc.exe] Get ReAgent config
+2024-01-21 15:57:34, Info                         [reagentc.exe] GetReAgentConfig Config file path: C:\Windows\system32\Recovery\ReAgent.xml
+2024-01-21 15:57:34, Info                         [reagentc.exe] CheckRegKey test hook (SystemSetupInProgress) present and disabled
+2024-01-21 15:57:34, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-01-21 15:57:34, Info                         [reagentc.exe] WinRE is installed
+2024-01-21 15:57:34, Info                         [reagentc.exe] --Install on target OS step 2: detect and fix if there is any issue for winre settings
+2024-01-21 15:57:34, Info                         [reagentc.exe] DetectAndFixWinReIssues (WinRE)WinRE is already installed, setting BCD entry (winre location \\?\GLOBALROOT\device\harddisk0\partition4\Recovery\WindowsRE)
+2024-01-21 15:57:34, Info                         [reagentc.exe] DetectAndFixWinReIssues Current Recovery Sequence is already set as the BCD id of WinRE.
+2024-01-21 15:57:34, Info                         [reagentc.exe] Current WinRE is ready. No need to make any further changes
+2024-01-21 15:57:34, Info                         [reagentc.exe] Exit WinReInstall return value: 1, last error: 0x0
+2024-01-21 15:57:34, Info                         [reagentc.exe] Enter WinReSetConfig
+2024-01-21 15:57:34, Info                         [reagentc.exe] Parameters: configWinDir: NULL
+2024-01-21 15:57:34, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-01-21 15:57:34, Info                         [reagentc.exe] WinRE is installed
+2024-01-21 15:57:34, Info                         [reagentc.exe] Exit WinReSetConfig return value: 1, last error: 0x0
+2024-01-21 15:57:34, Info                         [reagentc.exe] Clear non critical error when enabling auto repair
+2024-01-21 15:57:34, Info                         [reagentc.exe] ------------------------------------------------------
+2024-01-21 15:57:34, Info                         [reagentc.exe] -----Exiting command line: "C:\Windows\System32\reagentc.exe"  /enable, Error: 0-----
+2024-01-21 15:57:34, Info                         [reagentc.exe] ------------------------------------------------------
+2024-01-21 15:57:35, Info                         [reagentc.exe] ------------------------------------------------------
+2024-01-21 15:57:35, Info                         [reagentc.exe] -----Executing command line: "C:\Windows\System32\reagentc.exe" /setreimage /path "C:\ProgramData\Dell\SARemediation\WinRE\recovery\windowsre" /index 1 /target "C:\Windows"-----
+2024-01-21 15:57:35, Info                         [reagentc.exe] ------------------------------------------------------
+2024-01-21 15:57:35, Info                         [reagentc.exe] Enter WinReSetConfig
+2024-01-21 15:57:35, Info                         [reagentc.exe] Parameters: configWinDir: C:\Windows
+2024-01-21 15:57:35, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-01-21 15:57:35, Info                         [reagentc.exe] WinRE is installed
+2024-01-21 15:57:35, Info                         [reagentc.exe] Exit WinReSetConfig return value: 0, last error: 0xb7
+2024-01-21 15:57:35, Error                        [reagentc.exe] WinReSetConfig failed: : 0xb7
+2024-01-21 15:57:35, Info                         [reagentc.exe] ------------------------------------------------------
+2024-01-21 15:57:35, Info                         [reagentc.exe] -----Exiting command line: "C:\Windows\System32\reagentc.exe" /setreimage /path "C:\ProgramData\Dell\SARemediation\WinRE\recovery\windowsre" /index 1 /target "C:\Windows", Error: 183-----
+2024-01-21 15:57:35, Info                         [reagentc.exe] ------------------------------------------------------
+2024-01-21 15:57:35, Info                         [reagentc.exe] ------------------------------------------------------
+2024-01-21 15:57:35, Info                         [reagentc.exe] -----Executing command line: "C:\Windows\System32\reagentc.exe" /setbootshelllink /configfile "C:\Recovery\OEM\bootmenu.xml" /target "C:\Windows"-----
+2024-01-21 15:57:35, Info                         [reagentc.exe] ------------------------------------------------------
+2024-01-21 15:57:35, Info                         [reagentc.exe] Enter WinReSetConfig
+2024-01-21 15:57:35, Info                         [reagentc.exe] Parameters: configWinDir: C:\Windows
+2024-01-21 15:57:35, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-01-21 15:57:35, Info                         [reagentc.exe] WinRE is installed
+2024-01-21 15:57:35, Info                         [reagentc.exe] Exit WinReSetConfig return value: 1, last error: 0x0
+2024-01-21 15:57:35, Info                         [reagentc.exe] Enter WinReSetCustomization
+2024-01-21 15:57:35, Info                         [reagentc.exe] Parameters: configWinDir: C:\Windows, pwszConfigFile: C:\Recovery\OEM\bootmenu.xml
+2024-01-21 15:57:35, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-01-21 15:57:35, Info                         [reagentc.exe] WinRE is installed
+2024-01-21 15:57:35, Info                         [reagentc.exe] Exit WinReSetCustomization return value: 1, last error: 0x0
+2024-01-21 15:57:35, Info                         [reagentc.exe] ------------------------------------------------------
+2024-01-21 15:57:35, Info                         [reagentc.exe] -----Exiting command line: "C:\Windows\System32\reagentc.exe" /setbootshelllink /configfile "C:\Recovery\OEM\bootmenu.xml" /target "C:\Windows", Error: 0-----
+2024-01-21 15:57:35, Info                         [reagentc.exe] ------------------------------------------------------
+2024-01-28 11:56:45, Info                         [reagentc.exe] ------------------------------------------------------
+2024-01-28 11:56:45, Info                         [reagentc.exe] -----Executing command line: "C:\Windows\System32\reagentc.exe"  /enable-----
+2024-01-28 11:56:45, Info                         [reagentc.exe] ------------------------------------------------------
+2024-01-28 11:56:45, Info                         [reagentc.exe] Enter WinRECheckGuid
+2024-01-28 11:56:45, Info                         [reagentc.exe] Parameter: TargetOsGuid: : NULL 
+2024-01-28 11:56:45, Info                         [reagentc.exe] Exit WinRECheckGuid return error code: 0x0
+2024-01-28 11:56:45, Info                         [reagentc.exe] Enter WinReInstall
+2024-01-28 11:56:45, Info                         [reagentc.exe] Parameter: ReInstallBecauseOfBitlocker: 0
+2024-01-28 11:56:45, Info                         [reagentc.exe] --Install on target OS step 1: collect info like partition list, loading reagent.xml, source winre.wim and partition
+2024-01-28 11:56:45, Info                         [reagentc.exe] Enumerate and log all fixed partitions:
+2024-01-28 11:56:45, Info                         [reagentc.exe] --Partition info--
+2024-01-28 11:56:45, Info                         [reagentc.exe] VolumeName: \\?\Volume{adf24af1-5ea0-43d7-a050-56a48c69f5aa}, PartitionName: \\?\GLOBALROOT\device\harddisk0\partition1
+2024-01-28 11:56:45, Info                         [reagentc.exe] Partition number: 1, offset: 1048576, free space: 4119552, total space: 100663296
+2024-01-28 11:56:45, Info                         [reagentc.exe] DiskNumber:0, DiskSignature:0, NTFS:0, Mbr:0, Active:0, Boot:0, BitlockerEnabled:0
+2024-01-28 11:56:45, Info                         [reagentc.exe] GPT partition GUID:: {C12A7328-F81F-11D2-BA4B-00A0C93EC93B} 
+2024-01-28 11:56:45, Info                         [reagentc.exe] DiskId: {8D676199-B565-423A-822A-2700AFE6650B} 
+2024-01-28 11:56:45, Info                         [reagentc.exe] --Partition info--
+2024-01-28 11:56:45, Info                         [reagentc.exe] VolumeName: \\?\Volume{09414a30-b102-4b8e-cd19-03c738b34c2a}, PartitionName: \\?\GLOBALROOT\device\harddisk0\partition5
+2024-01-28 11:56:45, Info                         [reagentc.exe] Partition number: 5, offset: 1023059951616, free space: 22654976, total space: 1138749440
+2024-01-28 11:56:45, Info                         [reagentc.exe] DiskNumber:0, DiskSignature:0, NTFS:1, Mbr:0, Active:0, Boot:0, BitlockerEnabled:0
+2024-01-28 11:56:45, Info                         [reagentc.exe] GPT partition GUID:: {DE94BBA4-06D1-4D40-A16A-BFD50179D6AC} 
+2024-01-28 11:56:45, Info                         [reagentc.exe] DiskId: {8D676199-B565-423A-822A-2700AFE6650B} 
+2024-01-28 11:56:45, Info                         [reagentc.exe] --Partition info--
+2024-01-28 11:56:45, Info                         [reagentc.exe] VolumeName: \\?\Volume{e61184a0-5287-479d-85f0-349e5f8d2de6}, PartitionName: \\?\GLOBALROOT\device\harddisk0\partition4
+2024-01-28 11:56:45, Info                         [reagentc.exe] Partition number: 4, offset: 1022512594944, free space: 93577216, total space: 546304000
+2024-01-28 11:56:45, Info                         [reagentc.exe] DiskNumber:0, DiskSignature:0, NTFS:1, Mbr:0, Active:0, Boot:0, BitlockerEnabled:0
+2024-01-28 11:56:45, Info                         [reagentc.exe] GPT partition GUID:: {DE94BBA4-06D1-4D40-A16A-BFD50179D6AC} 
+2024-01-28 11:56:45, Info                         [reagentc.exe] DiskId: {8D676199-B565-423A-822A-2700AFE6650B} 
+2024-01-28 11:56:45, Info                         [reagentc.exe] --Partition info--
+2024-01-28 11:56:45, Info                         [reagentc.exe] VolumeName: \\?\Volume{e6d298c3-2087-42c9-8c77-fa167fe96314}, PartitionName: \\?\GLOBALROOT\device\harddisk0\partition3
+2024-01-28 11:56:45, Info                         [reagentc.exe] Partition number: 3, offset: 122683392, free space: 391122681856, total space: 1022389907456
+2024-01-28 11:56:45, Info                         [reagentc.exe] DiskNumber:0, DiskSignature:0, NTFS:1, Mbr:0, Active:0, Boot:1, BitlockerEnabled:0
+2024-01-28 11:56:45, Info                         [reagentc.exe] GPT partition GUID:: {EBD0A0A2-B9E5-4433-87C0-68B6B72699C7} 
+2024-01-28 11:56:45, Info                         [reagentc.exe] DiskId: {8D676199-B565-423A-822A-2700AFE6650B} 
+2024-01-28 11:56:45, Info                         [reagentc.exe] Get downlevel ReAgent config
+2024-01-28 11:56:45, Info                         [reagentc.exe]  Downlevel config file path: \Recovery\ReAgentOld.xml
+2024-01-28 11:56:45, Info                         [reagentc.exe]  Checking for downlevel WinRE installation.
+2024-01-28 11:56:45, Info                         [reagentc.exe] First round search
+2024-01-28 11:56:45, Info                         [reagentc.exe] Get ReAgent config
+2024-01-28 11:56:45, Info                         [reagentc.exe] GetReAgentConfig Config file path: C:\Windows\system32\Recovery\ReAgent.xml
+2024-01-28 11:56:45, Info                         [reagentc.exe] CheckRegKey test hook (SystemSetupInProgress) present and disabled
+2024-01-28 11:56:45, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-01-28 11:56:45, Info                         [reagentc.exe] WinRE is installed
+2024-01-28 11:56:45, Info                         [reagentc.exe] --Install on target OS step 2: detect and fix if there is any issue for winre settings
+2024-01-28 11:56:45, Info                         [reagentc.exe] DetectAndFixWinReIssues (WinRE)WinRE is already installed, setting BCD entry (winre location \\?\GLOBALROOT\device\harddisk0\partition4\Recovery\WindowsRE)
+2024-01-28 11:56:45, Info                         [reagentc.exe] DetectAndFixWinReIssues Current Recovery Sequence is already set as the BCD id of WinRE.
+2024-01-28 11:56:45, Info                         [reagentc.exe] Current WinRE is ready. No need to make any further changes
+2024-01-28 11:56:45, Info                         [reagentc.exe] Exit WinReInstall return value: 1, last error: 0x0
+2024-01-28 11:56:45, Info                         [reagentc.exe] Enter WinReSetConfig
+2024-01-28 11:56:45, Info                         [reagentc.exe] Parameters: configWinDir: NULL
+2024-01-28 11:56:45, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-01-28 11:56:45, Info                         [reagentc.exe] WinRE is installed
+2024-01-28 11:56:45, Info                         [reagentc.exe] Exit WinReSetConfig return value: 1, last error: 0x0
+2024-01-28 11:56:45, Info                         [reagentc.exe] Clear non critical error when enabling auto repair
+2024-01-28 11:56:45, Info                         [reagentc.exe] ------------------------------------------------------
+2024-01-28 11:56:45, Info                         [reagentc.exe] -----Exiting command line: "C:\Windows\System32\reagentc.exe"  /enable, Error: 0-----
+2024-01-28 11:56:45, Info                         [reagentc.exe] ------------------------------------------------------
+2024-01-28 11:56:46, Info                         [reagentc.exe] ------------------------------------------------------
+2024-01-28 11:56:46, Info                         [reagentc.exe] -----Executing command line: "C:\Windows\System32\reagentc.exe" /setreimage /path "C:\ProgramData\Dell\SARemediation\WinRE\recovery\windowsre" /index 1 /target "C:\Windows"-----
+2024-01-28 11:56:46, Info                         [reagentc.exe] ------------------------------------------------------
+2024-01-28 11:56:46, Info                         [reagentc.exe] Enter WinReSetConfig
+2024-01-28 11:56:46, Info                         [reagentc.exe] Parameters: configWinDir: C:\Windows
+2024-01-28 11:56:46, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-01-28 11:56:46, Info                         [reagentc.exe] WinRE is installed
+2024-01-28 11:56:46, Info                         [reagentc.exe] Exit WinReSetConfig return value: 0, last error: 0xb7
+2024-01-28 11:56:46, Error                        [reagentc.exe] WinReSetConfig failed: : 0xb7
+2024-01-28 11:56:46, Info                         [reagentc.exe] ------------------------------------------------------
+2024-01-28 11:56:46, Info                         [reagentc.exe] -----Exiting command line: "C:\Windows\System32\reagentc.exe" /setreimage /path "C:\ProgramData\Dell\SARemediation\WinRE\recovery\windowsre" /index 1 /target "C:\Windows", Error: 183-----
+2024-01-28 11:56:46, Info                         [reagentc.exe] ------------------------------------------------------
+2024-01-28 11:56:46, Info                         [reagentc.exe] ------------------------------------------------------
+2024-01-28 11:56:46, Info                         [reagentc.exe] -----Executing command line: "C:\Windows\System32\reagentc.exe" /setbootshelllink /configfile "C:\Recovery\OEM\bootmenu.xml" /target "C:\Windows"-----
+2024-01-28 11:56:46, Info                         [reagentc.exe] ------------------------------------------------------
+2024-01-28 11:56:46, Info                         [reagentc.exe] Enter WinReSetConfig
+2024-01-28 11:56:46, Info                         [reagentc.exe] Parameters: configWinDir: C:\Windows
+2024-01-28 11:56:46, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-01-28 11:56:46, Info                         [reagentc.exe] WinRE is installed
+2024-01-28 11:56:46, Info                         [reagentc.exe] Exit WinReSetConfig return value: 1, last error: 0x0
+2024-01-28 11:56:46, Info                         [reagentc.exe] Enter WinReSetCustomization
+2024-01-28 11:56:46, Info                         [reagentc.exe] Parameters: configWinDir: C:\Windows, pwszConfigFile: C:\Recovery\OEM\bootmenu.xml
+2024-01-28 11:56:46, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-01-28 11:56:46, Info                         [reagentc.exe] WinRE is installed
+2024-01-28 11:56:46, Info                         [reagentc.exe] Exit WinReSetCustomization return value: 1, last error: 0x0
+2024-01-28 11:56:46, Info                         [reagentc.exe] ------------------------------------------------------
+2024-01-28 11:56:46, Info                         [reagentc.exe] -----Exiting command line: "C:\Windows\System32\reagentc.exe" /setbootshelllink /configfile "C:\Recovery\OEM\bootmenu.xml" /target "C:\Windows", Error: 0-----
+2024-01-28 11:56:46, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-04 17:55:01, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-04 17:55:01, Info                         [reagentc.exe] -----Executing command line: "C:\Windows\System32\reagentc.exe"  /enable-----
+2024-02-04 17:55:01, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-04 17:55:01, Info                         [reagentc.exe] Enter WinRECheckGuid
+2024-02-04 17:55:01, Info                         [reagentc.exe] Parameter: TargetOsGuid: : NULL 
+2024-02-04 17:55:01, Info                         [reagentc.exe] Exit WinRECheckGuid return error code: 0x0
+2024-02-04 17:55:01, Info                         [reagentc.exe] Enter WinReInstall
+2024-02-04 17:55:01, Info                         [reagentc.exe] Parameter: ReInstallBecauseOfBitlocker: 0
+2024-02-04 17:55:01, Info                         [reagentc.exe] --Install on target OS step 1: collect info like partition list, loading reagent.xml, source winre.wim and partition
+2024-02-04 17:55:01, Info                         [reagentc.exe] Enumerate and log all fixed partitions:
+2024-02-04 17:55:01, Info                         [reagentc.exe] --Partition info--
+2024-02-04 17:55:01, Info                         [reagentc.exe] VolumeName: \\?\Volume{adf24af1-5ea0-43d7-a050-56a48c69f5aa}, PartitionName: \\?\GLOBALROOT\device\harddisk0\partition1
+2024-02-04 17:55:01, Info                         [reagentc.exe] Partition number: 1, offset: 1048576, free space: 4119552, total space: 100663296
+2024-02-04 17:55:01, Info                         [reagentc.exe] DiskNumber:0, DiskSignature:0, NTFS:0, Mbr:0, Active:0, Boot:0, BitlockerEnabled:0
+2024-02-04 17:55:01, Info                         [reagentc.exe] GPT partition GUID:: {C12A7328-F81F-11D2-BA4B-00A0C93EC93B} 
+2024-02-04 17:55:01, Info                         [reagentc.exe] DiskId: {8D676199-B565-423A-822A-2700AFE6650B} 
+2024-02-04 17:55:01, Info                         [reagentc.exe] --Partition info--
+2024-02-04 17:55:01, Info                         [reagentc.exe] VolumeName: \\?\Volume{09414a30-b102-4b8e-cd19-03c738b34c2a}, PartitionName: \\?\GLOBALROOT\device\harddisk0\partition5
+2024-02-04 17:55:01, Info                         [reagentc.exe] Partition number: 5, offset: 1023059951616, free space: 22654976, total space: 1138749440
+2024-02-04 17:55:01, Info                         [reagentc.exe] DiskNumber:0, DiskSignature:0, NTFS:1, Mbr:0, Active:0, Boot:0, BitlockerEnabled:0
+2024-02-04 17:55:01, Info                         [reagentc.exe] GPT partition GUID:: {DE94BBA4-06D1-4D40-A16A-BFD50179D6AC} 
+2024-02-04 17:55:01, Info                         [reagentc.exe] DiskId: {8D676199-B565-423A-822A-2700AFE6650B} 
+2024-02-04 17:55:01, Info                         [reagentc.exe] --Partition info--
+2024-02-04 17:55:01, Info                         [reagentc.exe] VolumeName: \\?\Volume{e61184a0-5287-479d-85f0-349e5f8d2de6}, PartitionName: \\?\GLOBALROOT\device\harddisk0\partition4
+2024-02-04 17:55:01, Info                         [reagentc.exe] Partition number: 4, offset: 1022512594944, free space: 93577216, total space: 546304000
+2024-02-04 17:55:01, Info                         [reagentc.exe] DiskNumber:0, DiskSignature:0, NTFS:1, Mbr:0, Active:0, Boot:0, BitlockerEnabled:0
+2024-02-04 17:55:01, Info                         [reagentc.exe] GPT partition GUID:: {DE94BBA4-06D1-4D40-A16A-BFD50179D6AC} 
+2024-02-04 17:55:01, Info                         [reagentc.exe] DiskId: {8D676199-B565-423A-822A-2700AFE6650B} 
+2024-02-04 17:55:01, Info                         [reagentc.exe] --Partition info--
+2024-02-04 17:55:01, Info                         [reagentc.exe] VolumeName: \\?\Volume{e6d298c3-2087-42c9-8c77-fa167fe96314}, PartitionName: \\?\GLOBALROOT\device\harddisk0\partition3
+2024-02-04 17:55:01, Info                         [reagentc.exe] Partition number: 3, offset: 122683392, free space: 390627549184, total space: 1022389907456
+2024-02-04 17:55:01, Info                         [reagentc.exe] DiskNumber:0, DiskSignature:0, NTFS:1, Mbr:0, Active:0, Boot:1, BitlockerEnabled:0
+2024-02-04 17:55:01, Info                         [reagentc.exe] GPT partition GUID:: {EBD0A0A2-B9E5-4433-87C0-68B6B72699C7} 
+2024-02-04 17:55:01, Info                         [reagentc.exe] DiskId: {8D676199-B565-423A-822A-2700AFE6650B} 
+2024-02-04 17:55:01, Info                         [reagentc.exe] Get downlevel ReAgent config
+2024-02-04 17:55:01, Info                         [reagentc.exe]  Downlevel config file path: \Recovery\ReAgentOld.xml
+2024-02-04 17:55:01, Info                         [reagentc.exe]  Checking for downlevel WinRE installation.
+2024-02-04 17:55:01, Info                         [reagentc.exe] First round search
+2024-02-04 17:55:01, Info                         [reagentc.exe] Get ReAgent config
+2024-02-04 17:55:01, Info                         [reagentc.exe] GetReAgentConfig Config file path: C:\Windows\system32\Recovery\ReAgent.xml
+2024-02-04 17:55:01, Info                         [reagentc.exe] CheckRegKey test hook (SystemSetupInProgress) present and disabled
+2024-02-04 17:55:01, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-02-04 17:55:01, Info                         [reagentc.exe] WinRE is installed
+2024-02-04 17:55:01, Info                         [reagentc.exe] --Install on target OS step 2: detect and fix if there is any issue for winre settings
+2024-02-04 17:55:01, Info                         [reagentc.exe] DetectAndFixWinReIssues (WinRE)WinRE is already installed, setting BCD entry (winre location \\?\GLOBALROOT\device\harddisk0\partition4\Recovery\WindowsRE)
+2024-02-04 17:55:01, Info                         [reagentc.exe] DetectAndFixWinReIssues Current Recovery Sequence is already set as the BCD id of WinRE.
+2024-02-04 17:55:01, Info                         [reagentc.exe] Current WinRE is ready. No need to make any further changes
+2024-02-04 17:55:01, Info                         [reagentc.exe] Exit WinReInstall return value: 1, last error: 0x0
+2024-02-04 17:55:01, Info                         [reagentc.exe] Enter WinReSetConfig
+2024-02-04 17:55:01, Info                         [reagentc.exe] Parameters: configWinDir: NULL
+2024-02-04 17:55:01, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-02-04 17:55:01, Info                         [reagentc.exe] WinRE is installed
+2024-02-04 17:55:01, Info                         [reagentc.exe] Exit WinReSetConfig return value: 1, last error: 0x0
+2024-02-04 17:55:01, Info                         [reagentc.exe] Clear non critical error when enabling auto repair
+2024-02-04 17:55:01, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-04 17:55:01, Info                         [reagentc.exe] -----Exiting command line: "C:\Windows\System32\reagentc.exe"  /enable, Error: 0-----
+2024-02-04 17:55:01, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-04 17:55:02, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-04 17:55:02, Info                         [reagentc.exe] -----Executing command line: "C:\Windows\System32\reagentc.exe" /setreimage /path "C:\ProgramData\Dell\SARemediation\WinRE\recovery\windowsre" /index 1 /target "C:\Windows"-----
+2024-02-04 17:55:02, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-04 17:55:02, Info                         [reagentc.exe] Enter WinReSetConfig
+2024-02-04 17:55:02, Info                         [reagentc.exe] Parameters: configWinDir: C:\Windows
+2024-02-04 17:55:02, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-02-04 17:55:02, Info                         [reagentc.exe] WinRE is installed
+2024-02-04 17:55:02, Info                         [reagentc.exe] Exit WinReSetConfig return value: 0, last error: 0xb7
+2024-02-04 17:55:02, Error                        [reagentc.exe] WinReSetConfig failed: : 0xb7
+2024-02-04 17:55:02, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-04 17:55:02, Info                         [reagentc.exe] -----Exiting command line: "C:\Windows\System32\reagentc.exe" /setreimage /path "C:\ProgramData\Dell\SARemediation\WinRE\recovery\windowsre" /index 1 /target "C:\Windows", Error: 183-----
+2024-02-04 17:55:02, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-04 17:55:02, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-04 17:55:02, Info                         [reagentc.exe] -----Executing command line: "C:\Windows\System32\reagentc.exe" /setbootshelllink /configfile "C:\Recovery\OEM\bootmenu.xml" /target "C:\Windows"-----
+2024-02-04 17:55:02, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-04 17:55:02, Info                         [reagentc.exe] Enter WinReSetConfig
+2024-02-04 17:55:02, Info                         [reagentc.exe] Parameters: configWinDir: C:\Windows
+2024-02-04 17:55:02, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-02-04 17:55:02, Info                         [reagentc.exe] WinRE is installed
+2024-02-04 17:55:02, Info                         [reagentc.exe] Exit WinReSetConfig return value: 1, last error: 0x0
+2024-02-04 17:55:02, Info                         [reagentc.exe] Enter WinReSetCustomization
+2024-02-04 17:55:02, Info                         [reagentc.exe] Parameters: configWinDir: C:\Windows, pwszConfigFile: C:\Recovery\OEM\bootmenu.xml
+2024-02-04 17:55:02, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-02-04 17:55:02, Info                         [reagentc.exe] WinRE is installed
+2024-02-04 17:55:02, Info                         [reagentc.exe] Exit WinReSetCustomization return value: 1, last error: 0x0
+2024-02-04 17:55:02, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-04 17:55:02, Info                         [reagentc.exe] -----Exiting command line: "C:\Windows\System32\reagentc.exe" /setbootshelllink /configfile "C:\Recovery\OEM\bootmenu.xml" /target "C:\Windows", Error: 0-----
+2024-02-04 17:55:02, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-05 08:42:14, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-05 08:42:14, Info                         [reagentc.exe] -----Executing command line: "C:\Windows\System32\reagentc.exe"  /enable-----
+2024-02-05 08:42:14, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-05 08:42:14, Info                         [reagentc.exe] Enter WinRECheckGuid
+2024-02-05 08:42:14, Info                         [reagentc.exe] Parameter: TargetOsGuid: : NULL 
+2024-02-05 08:42:14, Info                         [reagentc.exe] Exit WinRECheckGuid return error code: 0x0
+2024-02-05 08:42:14, Info                         [reagentc.exe] Enter WinReInstall
+2024-02-05 08:42:14, Info                         [reagentc.exe] Parameter: ReInstallBecauseOfBitlocker: 0
+2024-02-05 08:42:14, Info                         [reagentc.exe] --Install on target OS step 1: collect info like partition list, loading reagent.xml, source winre.wim and partition
+2024-02-05 08:42:14, Info                         [reagentc.exe] Enumerate and log all fixed partitions:
+2024-02-05 08:42:14, Info                         [reagentc.exe] --Partition info--
+2024-02-05 08:42:14, Info                         [reagentc.exe] VolumeName: \\?\Volume{adf24af1-5ea0-43d7-a050-56a48c69f5aa}, PartitionName: \\?\GLOBALROOT\device\harddisk0\partition1
+2024-02-05 08:42:14, Info                         [reagentc.exe] Partition number: 1, offset: 1048576, free space: 4119552, total space: 100663296
+2024-02-05 08:42:14, Info                         [reagentc.exe] DiskNumber:0, DiskSignature:0, NTFS:0, Mbr:0, Active:0, Boot:0, BitlockerEnabled:0
+2024-02-05 08:42:14, Info                         [reagentc.exe] GPT partition GUID:: {C12A7328-F81F-11D2-BA4B-00A0C93EC93B} 
+2024-02-05 08:42:14, Info                         [reagentc.exe] DiskId: {8D676199-B565-423A-822A-2700AFE6650B} 
+2024-02-05 08:42:14, Info                         [reagentc.exe] --Partition info--
+2024-02-05 08:42:14, Info                         [reagentc.exe] VolumeName: \\?\Volume{09414a30-b102-4b8e-cd19-03c738b34c2a}, PartitionName: \\?\GLOBALROOT\device\harddisk0\partition5
+2024-02-05 08:42:14, Info                         [reagentc.exe] Partition number: 5, offset: 1023059951616, free space: 22654976, total space: 1138749440
+2024-02-05 08:42:14, Info                         [reagentc.exe] DiskNumber:0, DiskSignature:0, NTFS:1, Mbr:0, Active:0, Boot:0, BitlockerEnabled:0
+2024-02-05 08:42:14, Info                         [reagentc.exe] GPT partition GUID:: {DE94BBA4-06D1-4D40-A16A-BFD50179D6AC} 
+2024-02-05 08:42:14, Info                         [reagentc.exe] DiskId: {8D676199-B565-423A-822A-2700AFE6650B} 
+2024-02-05 08:42:14, Info                         [reagentc.exe] --Partition info--
+2024-02-05 08:42:14, Info                         [reagentc.exe] VolumeName: \\?\Volume{e61184a0-5287-479d-85f0-349e5f8d2de6}, PartitionName: \\?\GLOBALROOT\device\harddisk0\partition4
+2024-02-05 08:42:14, Info                         [reagentc.exe] Partition number: 4, offset: 1022512594944, free space: 93577216, total space: 546304000
+2024-02-05 08:42:14, Info                         [reagentc.exe] DiskNumber:0, DiskSignature:0, NTFS:1, Mbr:0, Active:0, Boot:0, BitlockerEnabled:0
+2024-02-05 08:42:14, Info                         [reagentc.exe] GPT partition GUID:: {DE94BBA4-06D1-4D40-A16A-BFD50179D6AC} 
+2024-02-05 08:42:14, Info                         [reagentc.exe] DiskId: {8D676199-B565-423A-822A-2700AFE6650B} 
+2024-02-05 08:42:14, Info                         [reagentc.exe] --Partition info--
+2024-02-05 08:42:14, Info                         [reagentc.exe] VolumeName: \\?\Volume{e6d298c3-2087-42c9-8c77-fa167fe96314}, PartitionName: \\?\GLOBALROOT\device\harddisk0\partition3
+2024-02-05 08:42:14, Info                         [reagentc.exe] Partition number: 3, offset: 122683392, free space: 389145907200, total space: 1022389907456
+2024-02-05 08:42:14, Info                         [reagentc.exe] DiskNumber:0, DiskSignature:0, NTFS:1, Mbr:0, Active:0, Boot:1, BitlockerEnabled:0
+2024-02-05 08:42:14, Info                         [reagentc.exe] GPT partition GUID:: {EBD0A0A2-B9E5-4433-87C0-68B6B72699C7} 
+2024-02-05 08:42:14, Info                         [reagentc.exe] DiskId: {8D676199-B565-423A-822A-2700AFE6650B} 
+2024-02-05 08:42:14, Info                         [reagentc.exe] Get downlevel ReAgent config
+2024-02-05 08:42:14, Info                         [reagentc.exe]  Downlevel config file path: \Recovery\ReAgentOld.xml
+2024-02-05 08:42:14, Info                         [reagentc.exe]  Checking for downlevel WinRE installation.
+2024-02-05 08:42:14, Info                         [reagentc.exe] First round search
+2024-02-05 08:42:14, Info                         [reagentc.exe] Get ReAgent config
+2024-02-05 08:42:14, Info                         [reagentc.exe] GetReAgentConfig Config file path: C:\Windows\system32\Recovery\ReAgent.xml
+2024-02-05 08:42:14, Info                         [reagentc.exe] CheckRegKey test hook (SystemSetupInProgress) present and disabled
+2024-02-05 08:42:14, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-02-05 08:42:14, Info                         [reagentc.exe] WinRE is installed
+2024-02-05 08:42:14, Info                         [reagentc.exe] --Install on target OS step 2: detect and fix if there is any issue for winre settings
+2024-02-05 08:42:14, Info                         [reagentc.exe] DetectAndFixWinReIssues (WinRE)WinRE is already installed, setting BCD entry (winre location \\?\GLOBALROOT\device\harddisk0\partition4\Recovery\WindowsRE)
+2024-02-05 08:42:14, Info                         [reagentc.exe] DetectAndFixWinReIssues Current Recovery Sequence is already set as the BCD id of WinRE.
+2024-02-05 08:42:14, Info                         [reagentc.exe] Current WinRE is ready. No need to make any further changes
+2024-02-05 08:42:14, Info                         [reagentc.exe] Exit WinReInstall return value: 1, last error: 0x0
+2024-02-05 08:42:14, Info                         [reagentc.exe] Enter WinReSetConfig
+2024-02-05 08:42:14, Info                         [reagentc.exe] Parameters: configWinDir: NULL
+2024-02-05 08:42:14, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-02-05 08:42:15, Info                         [reagentc.exe] WinRE is installed
+2024-02-05 08:42:15, Info                         [reagentc.exe] Exit WinReSetConfig return value: 1, last error: 0x0
+2024-02-05 08:42:15, Info                         [reagentc.exe] Clear non critical error when enabling auto repair
+2024-02-05 08:42:15, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-05 08:42:15, Info                         [reagentc.exe] -----Exiting command line: "C:\Windows\System32\reagentc.exe"  /enable, Error: 0-----
+2024-02-05 08:42:15, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-05 08:42:15, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-05 08:42:15, Info                         [reagentc.exe] -----Executing command line: "C:\Windows\System32\reagentc.exe" /setreimage /path "C:\ProgramData\Dell\SARemediation\WinRE\recovery\windowsre" /index 1 /target "C:\Windows"-----
+2024-02-05 08:42:15, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-05 08:42:15, Info                         [reagentc.exe] Enter WinReSetConfig
+2024-02-05 08:42:15, Info                         [reagentc.exe] Parameters: configWinDir: C:\Windows
+2024-02-05 08:42:15, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-02-05 08:42:15, Info                         [reagentc.exe] WinRE is installed
+2024-02-05 08:42:15, Info                         [reagentc.exe] Exit WinReSetConfig return value: 0, last error: 0xb7
+2024-02-05 08:42:15, Error                        [reagentc.exe] WinReSetConfig failed: : 0xb7
+2024-02-05 08:42:15, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-05 08:42:15, Info                         [reagentc.exe] -----Exiting command line: "C:\Windows\System32\reagentc.exe" /setreimage /path "C:\ProgramData\Dell\SARemediation\WinRE\recovery\windowsre" /index 1 /target "C:\Windows", Error: 183-----
+2024-02-05 08:42:15, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-05 08:42:15, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-05 08:42:15, Info                         [reagentc.exe] -----Executing command line: "C:\Windows\System32\reagentc.exe" /setbootshelllink /configfile "C:\Recovery\OEM\bootmenu.xml" /target "C:\Windows"-----
+2024-02-05 08:42:15, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-05 08:42:15, Info                         [reagentc.exe] Enter WinReSetConfig
+2024-02-05 08:42:15, Info                         [reagentc.exe] Parameters: configWinDir: C:\Windows
+2024-02-05 08:42:15, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-02-05 08:42:15, Info                         [reagentc.exe] WinRE is installed
+2024-02-05 08:42:15, Info                         [reagentc.exe] Exit WinReSetConfig return value: 1, last error: 0x0
+2024-02-05 08:42:15, Info                         [reagentc.exe] Enter WinReSetCustomization
+2024-02-05 08:42:15, Info                         [reagentc.exe] Parameters: configWinDir: C:\Windows, pwszConfigFile: C:\Recovery\OEM\bootmenu.xml
+2024-02-05 08:42:15, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-02-05 08:42:16, Info                         [reagentc.exe] WinRE is installed
+2024-02-05 08:42:16, Info                         [reagentc.exe] Exit WinReSetCustomization return value: 1, last error: 0x0
+2024-02-05 08:42:16, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-05 08:42:16, Info                         [reagentc.exe] -----Exiting command line: "C:\Windows\System32\reagentc.exe" /setbootshelllink /configfile "C:\Recovery\OEM\bootmenu.xml" /target "C:\Windows", Error: 0-----
+2024-02-05 08:42:16, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-11 08:29:46, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-11 08:29:46, Info                         [reagentc.exe] -----Executing command line: "C:\Windows\System32\reagentc.exe"  /enable-----
+2024-02-11 08:29:46, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-11 08:29:46, Info                         [reagentc.exe] Enter WinRECheckGuid
+2024-02-11 08:29:46, Info                         [reagentc.exe] Parameter: TargetOsGuid: : NULL 
+2024-02-11 08:29:46, Info                         [reagentc.exe] Exit WinRECheckGuid return error code: 0x0
+2024-02-11 08:29:46, Info                         [reagentc.exe] Enter WinReInstall
+2024-02-11 08:29:46, Info                         [reagentc.exe] Parameter: ReInstallBecauseOfBitlocker: 0
+2024-02-11 08:29:46, Info                         [reagentc.exe] --Install on target OS step 1: collect info like partition list, loading reagent.xml, source winre.wim and partition
+2024-02-11 08:29:46, Info                         [reagentc.exe] Enumerate and log all fixed partitions:
+2024-02-11 08:29:46, Info                         [reagentc.exe] --Partition info--
+2024-02-11 08:29:46, Info                         [reagentc.exe] VolumeName: \\?\Volume{adf24af1-5ea0-43d7-a050-56a48c69f5aa}, PartitionName: \\?\GLOBALROOT\device\harddisk0\partition1
+2024-02-11 08:29:46, Info                         [reagentc.exe] Partition number: 1, offset: 1048576, free space: 4119552, total space: 100663296
+2024-02-11 08:29:46, Info                         [reagentc.exe] DiskNumber:0, DiskSignature:0, NTFS:0, Mbr:0, Active:0, Boot:0, BitlockerEnabled:0
+2024-02-11 08:29:46, Info                         [reagentc.exe] GPT partition GUID:: {C12A7328-F81F-11D2-BA4B-00A0C93EC93B} 
+2024-02-11 08:29:46, Info                         [reagentc.exe] DiskId: {8D676199-B565-423A-822A-2700AFE6650B} 
+2024-02-11 08:29:46, Info                         [reagentc.exe] --Partition info--
+2024-02-11 08:29:46, Info                         [reagentc.exe] VolumeName: \\?\Volume{09414a30-b102-4b8e-cd19-03c738b34c2a}, PartitionName: \\?\GLOBALROOT\device\harddisk0\partition5
+2024-02-11 08:29:46, Info                         [reagentc.exe] Partition number: 5, offset: 1023059951616, free space: 22654976, total space: 1138749440
+2024-02-11 08:29:46, Info                         [reagentc.exe] DiskNumber:0, DiskSignature:0, NTFS:1, Mbr:0, Active:0, Boot:0, BitlockerEnabled:0
+2024-02-11 08:29:46, Info                         [reagentc.exe] GPT partition GUID:: {DE94BBA4-06D1-4D40-A16A-BFD50179D6AC} 
+2024-02-11 08:29:46, Info                         [reagentc.exe] DiskId: {8D676199-B565-423A-822A-2700AFE6650B} 
+2024-02-11 08:29:46, Info                         [reagentc.exe] --Partition info--
+2024-02-11 08:29:46, Info                         [reagentc.exe] VolumeName: \\?\Volume{e61184a0-5287-479d-85f0-349e5f8d2de6}, PartitionName: \\?\GLOBALROOT\device\harddisk0\partition4
+2024-02-11 08:29:46, Info                         [reagentc.exe] Partition number: 4, offset: 1022512594944, free space: 93577216, total space: 546304000
+2024-02-11 08:29:46, Info                         [reagentc.exe] DiskNumber:0, DiskSignature:0, NTFS:1, Mbr:0, Active:0, Boot:0, BitlockerEnabled:0
+2024-02-11 08:29:46, Info                         [reagentc.exe] GPT partition GUID:: {DE94BBA4-06D1-4D40-A16A-BFD50179D6AC} 
+2024-02-11 08:29:46, Info                         [reagentc.exe] DiskId: {8D676199-B565-423A-822A-2700AFE6650B} 
+2024-02-11 08:29:46, Info                         [reagentc.exe] --Partition info--
+2024-02-11 08:29:46, Info                         [reagentc.exe] VolumeName: \\?\Volume{e6d298c3-2087-42c9-8c77-fa167fe96314}, PartitionName: \\?\GLOBALROOT\device\harddisk0\partition3
+2024-02-11 08:29:46, Info                         [reagentc.exe] Partition number: 3, offset: 122683392, free space: 395113254912, total space: 1022389907456
+2024-02-11 08:29:46, Info                         [reagentc.exe] DiskNumber:0, DiskSignature:0, NTFS:1, Mbr:0, Active:0, Boot:1, BitlockerEnabled:0
+2024-02-11 08:29:46, Info                         [reagentc.exe] GPT partition GUID:: {EBD0A0A2-B9E5-4433-87C0-68B6B72699C7} 
+2024-02-11 08:29:46, Info                         [reagentc.exe] DiskId: {8D676199-B565-423A-822A-2700AFE6650B} 
+2024-02-11 08:29:46, Info                         [reagentc.exe] Get downlevel ReAgent config
+2024-02-11 08:29:46, Info                         [reagentc.exe]  Downlevel config file path: \Recovery\ReAgentOld.xml
+2024-02-11 08:29:46, Info                         [reagentc.exe]  Checking for downlevel WinRE installation.
+2024-02-11 08:29:46, Info                         [reagentc.exe] First round search
+2024-02-11 08:29:46, Info                         [reagentc.exe] Get ReAgent config
+2024-02-11 08:29:46, Info                         [reagentc.exe] GetReAgentConfig Config file path: C:\Windows\system32\Recovery\ReAgent.xml
+2024-02-11 08:29:46, Info                         [reagentc.exe] CheckRegKey test hook (SystemSetupInProgress) present and disabled
+2024-02-11 08:29:46, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-02-11 08:29:47, Info                         [reagentc.exe] WinRE is installed
+2024-02-11 08:29:47, Info                         [reagentc.exe] --Install on target OS step 2: detect and fix if there is any issue for winre settings
+2024-02-11 08:29:47, Info                         [reagentc.exe] DetectAndFixWinReIssues (WinRE)WinRE is already installed, setting BCD entry (winre location \\?\GLOBALROOT\device\harddisk0\partition4\Recovery\WindowsRE)
+2024-02-11 08:29:47, Info                         [reagentc.exe] DetectAndFixWinReIssues Current Recovery Sequence is already set as the BCD id of WinRE.
+2024-02-11 08:29:47, Info                         [reagentc.exe] Current WinRE is ready. No need to make any further changes
+2024-02-11 08:29:47, Info                         [reagentc.exe] Exit WinReInstall return value: 1, last error: 0x0
+2024-02-11 08:29:47, Info                         [reagentc.exe] Enter WinReSetConfig
+2024-02-11 08:29:47, Info                         [reagentc.exe] Parameters: configWinDir: NULL
+2024-02-11 08:29:47, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-02-11 08:29:47, Info                         [reagentc.exe] WinRE is installed
+2024-02-11 08:29:47, Info                         [reagentc.exe] Exit WinReSetConfig return value: 1, last error: 0x0
+2024-02-11 08:29:47, Info                         [reagentc.exe] Clear non critical error when enabling auto repair
+2024-02-11 08:29:47, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-11 08:29:47, Info                         [reagentc.exe] -----Exiting command line: "C:\Windows\System32\reagentc.exe"  /enable, Error: 0-----
+2024-02-11 08:29:47, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-11 08:29:47, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-11 08:29:47, Info                         [reagentc.exe] -----Executing command line: "C:\Windows\System32\reagentc.exe" /setreimage /path "C:\ProgramData\Dell\SARemediation\WinRE\recovery\windowsre" /index 1 /target "C:\Windows"-----
+2024-02-11 08:29:47, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-11 08:29:47, Info                         [reagentc.exe] Enter WinReSetConfig
+2024-02-11 08:29:47, Info                         [reagentc.exe] Parameters: configWinDir: C:\Windows
+2024-02-11 08:29:47, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-02-11 08:29:47, Info                         [reagentc.exe] WinRE is installed
+2024-02-11 08:29:47, Info                         [reagentc.exe] Exit WinReSetConfig return value: 0, last error: 0xb7
+2024-02-11 08:29:47, Error                        [reagentc.exe] WinReSetConfig failed: : 0xb7
+2024-02-11 08:29:47, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-11 08:29:47, Info                         [reagentc.exe] -----Exiting command line: "C:\Windows\System32\reagentc.exe" /setreimage /path "C:\ProgramData\Dell\SARemediation\WinRE\recovery\windowsre" /index 1 /target "C:\Windows", Error: 183-----
+2024-02-11 08:29:47, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-11 08:29:47, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-11 08:29:47, Info                         [reagentc.exe] -----Executing command line: "C:\Windows\System32\reagentc.exe" /setbootshelllink /configfile "C:\Recovery\OEM\bootmenu.xml" /target "C:\Windows"-----
+2024-02-11 08:29:47, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-11 08:29:47, Info                         [reagentc.exe] Enter WinReSetConfig
+2024-02-11 08:29:47, Info                         [reagentc.exe] Parameters: configWinDir: C:\Windows
+2024-02-11 08:29:47, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-02-11 08:29:47, Info                         [reagentc.exe] WinRE is installed
+2024-02-11 08:29:47, Info                         [reagentc.exe] Exit WinReSetConfig return value: 1, last error: 0x0
+2024-02-11 08:29:47, Info                         [reagentc.exe] Enter WinReSetCustomization
+2024-02-11 08:29:47, Info                         [reagentc.exe] Parameters: configWinDir: C:\Windows, pwszConfigFile: C:\Recovery\OEM\bootmenu.xml
+2024-02-11 08:29:47, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-02-11 08:29:47, Info                         [reagentc.exe] WinRE is installed
+2024-02-11 08:29:47, Info                         [reagentc.exe] Exit WinReSetCustomization return value: 1, last error: 0x0
+2024-02-11 08:29:47, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-11 08:29:47, Info                         [reagentc.exe] -----Exiting command line: "C:\Windows\System32\reagentc.exe" /setbootshelllink /configfile "C:\Recovery\OEM\bootmenu.xml" /target "C:\Windows", Error: 0-----
+2024-02-11 08:29:47, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-14 09:07:33, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-14 09:07:33, Info                         [reagentc.exe] -----Executing command line: "C:\Windows\System32\reagentc.exe"  /enable-----
+2024-02-14 09:07:33, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-14 09:07:33, Info                         [reagentc.exe] Enter WinRECheckGuid
+2024-02-14 09:07:33, Info                         [reagentc.exe] Parameter: TargetOsGuid: : NULL 
+2024-02-14 09:07:33, Info                         [reagentc.exe] Exit WinRECheckGuid return error code: 0x0
+2024-02-14 09:07:33, Info                         [reagentc.exe] Enter WinReInstall
+2024-02-14 09:07:33, Info                         [reagentc.exe] Parameter: ReInstallBecauseOfBitlocker: 0
+2024-02-14 09:07:33, Info                         [reagentc.exe] --Install on target OS step 1: collect info like partition list, loading reagent.xml, source winre.wim and partition
+2024-02-14 09:07:33, Info                         [reagentc.exe] Enumerate and log all fixed partitions:
+2024-02-14 09:07:33, Info                         [reagentc.exe] --Partition info--
+2024-02-14 09:07:33, Info                         [reagentc.exe] VolumeName: \\?\Volume{adf24af1-5ea0-43d7-a050-56a48c69f5aa}, PartitionName: \\?\GLOBALROOT\device\harddisk0\partition1
+2024-02-14 09:07:33, Info                         [reagentc.exe] Partition number: 1, offset: 1048576, free space: 4119552, total space: 100663296
+2024-02-14 09:07:33, Info                         [reagentc.exe] DiskNumber:0, DiskSignature:0, NTFS:0, Mbr:0, Active:0, Boot:0, BitlockerEnabled:0
+2024-02-14 09:07:33, Info                         [reagentc.exe] GPT partition GUID:: {C12A7328-F81F-11D2-BA4B-00A0C93EC93B} 
+2024-02-14 09:07:33, Info                         [reagentc.exe] DiskId: {8D676199-B565-423A-822A-2700AFE6650B} 
+2024-02-14 09:07:33, Info                         [reagentc.exe] --Partition info--
+2024-02-14 09:07:33, Info                         [reagentc.exe] VolumeName: \\?\Volume{09414a30-b102-4b8e-cd19-03c738b34c2a}, PartitionName: \\?\GLOBALROOT\device\harddisk0\partition5
+2024-02-14 09:07:33, Info                         [reagentc.exe] Partition number: 5, offset: 1023059951616, free space: 22654976, total space: 1138749440
+2024-02-14 09:07:33, Info                         [reagentc.exe] DiskNumber:0, DiskSignature:0, NTFS:1, Mbr:0, Active:0, Boot:0, BitlockerEnabled:0
+2024-02-14 09:07:33, Info                         [reagentc.exe] GPT partition GUID:: {DE94BBA4-06D1-4D40-A16A-BFD50179D6AC} 
+2024-02-14 09:07:33, Info                         [reagentc.exe] DiskId: {8D676199-B565-423A-822A-2700AFE6650B} 
+2024-02-14 09:07:33, Info                         [reagentc.exe] --Partition info--
+2024-02-14 09:07:33, Info                         [reagentc.exe] VolumeName: \\?\Volume{e61184a0-5287-479d-85f0-349e5f8d2de6}, PartitionName: \\?\GLOBALROOT\device\harddisk0\partition4
+2024-02-14 09:07:33, Info                         [reagentc.exe] Partition number: 4, offset: 1022512594944, free space: 93577216, total space: 546304000
+2024-02-14 09:07:33, Info                         [reagentc.exe] DiskNumber:0, DiskSignature:0, NTFS:1, Mbr:0, Active:0, Boot:0, BitlockerEnabled:0
+2024-02-14 09:07:33, Info                         [reagentc.exe] GPT partition GUID:: {DE94BBA4-06D1-4D40-A16A-BFD50179D6AC} 
+2024-02-14 09:07:33, Info                         [reagentc.exe] DiskId: {8D676199-B565-423A-822A-2700AFE6650B} 
+2024-02-14 09:07:33, Info                         [reagentc.exe] --Partition info--
+2024-02-14 09:07:33, Info                         [reagentc.exe] VolumeName: \\?\Volume{e6d298c3-2087-42c9-8c77-fa167fe96314}, PartitionName: \\?\GLOBALROOT\device\harddisk0\partition3
+2024-02-14 09:07:33, Info                         [reagentc.exe] Partition number: 3, offset: 122683392, free space: 395878375424, total space: 1022389907456
+2024-02-14 09:07:33, Info                         [reagentc.exe] DiskNumber:0, DiskSignature:0, NTFS:1, Mbr:0, Active:0, Boot:1, BitlockerEnabled:0
+2024-02-14 09:07:33, Info                         [reagentc.exe] GPT partition GUID:: {EBD0A0A2-B9E5-4433-87C0-68B6B72699C7} 
+2024-02-14 09:07:33, Info                         [reagentc.exe] DiskId: {8D676199-B565-423A-822A-2700AFE6650B} 
+2024-02-14 09:07:33, Info                         [reagentc.exe] Get downlevel ReAgent config
+2024-02-14 09:07:33, Info                         [reagentc.exe]  Downlevel config file path: \Recovery\ReAgentOld.xml
+2024-02-14 09:07:33, Info                         [reagentc.exe]  Checking for downlevel WinRE installation.
+2024-02-14 09:07:33, Info                         [reagentc.exe] First round search
+2024-02-14 09:07:33, Info                         [reagentc.exe] Get ReAgent config
+2024-02-14 09:07:33, Info                         [reagentc.exe] GetReAgentConfig Config file path: C:\Windows\system32\Recovery\ReAgent.xml
+2024-02-14 09:07:33, Info                         [reagentc.exe] CheckRegKey test hook (SystemSetupInProgress) present and disabled
+2024-02-14 09:07:33, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-02-14 09:07:33, Info                         [reagentc.exe] WinRE is installed
+2024-02-14 09:07:33, Info                         [reagentc.exe] --Install on target OS step 2: detect and fix if there is any issue for winre settings
+2024-02-14 09:07:33, Info                         [reagentc.exe] DetectAndFixWinReIssues (WinRE)WinRE is already installed, setting BCD entry (winre location \\?\GLOBALROOT\device\harddisk0\partition4\Recovery\WindowsRE)
+2024-02-14 09:07:33, Info                         [reagentc.exe] DetectAndFixWinReIssues Current Recovery Sequence is already set as the BCD id of WinRE.
+2024-02-14 09:07:33, Info                         [reagentc.exe] Current WinRE is ready. No need to make any further changes
+2024-02-14 09:07:33, Info                         [reagentc.exe] Exit WinReInstall return value: 1, last error: 0x0
+2024-02-14 09:07:33, Info                         [reagentc.exe] Enter WinReSetConfig
+2024-02-14 09:07:33, Info                         [reagentc.exe] Parameters: configWinDir: NULL
+2024-02-14 09:07:33, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-02-14 09:07:33, Info                         [reagentc.exe] WinRE is installed
+2024-02-14 09:07:33, Info                         [reagentc.exe] Exit WinReSetConfig return value: 1, last error: 0x0
+2024-02-14 09:07:33, Info                         [reagentc.exe] Clear non critical error when enabling auto repair
+2024-02-14 09:07:33, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-14 09:07:33, Info                         [reagentc.exe] -----Exiting command line: "C:\Windows\System32\reagentc.exe"  /enable, Error: 0-----
+2024-02-14 09:07:33, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-14 09:07:34, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-14 09:07:34, Info                         [reagentc.exe] -----Executing command line: "C:\Windows\System32\reagentc.exe" /setreimage /path "C:\ProgramData\Dell\SARemediation\WinRE\recovery\windowsre" /index 1 /target "C:\Windows"-----
+2024-02-14 09:07:34, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-14 09:07:34, Info                         [reagentc.exe] Enter WinReSetConfig
+2024-02-14 09:07:34, Info                         [reagentc.exe] Parameters: configWinDir: C:\Windows
+2024-02-14 09:07:34, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-02-14 09:07:34, Info                         [reagentc.exe] WinRE is installed
+2024-02-14 09:07:34, Info                         [reagentc.exe] Exit WinReSetConfig return value: 0, last error: 0xb7
+2024-02-14 09:07:34, Error                        [reagentc.exe] WinReSetConfig failed: : 0xb7
+2024-02-14 09:07:34, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-14 09:07:34, Info                         [reagentc.exe] -----Exiting command line: "C:\Windows\System32\reagentc.exe" /setreimage /path "C:\ProgramData\Dell\SARemediation\WinRE\recovery\windowsre" /index 1 /target "C:\Windows", Error: 183-----
+2024-02-14 09:07:34, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-14 09:07:34, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-14 09:07:34, Info                         [reagentc.exe] -----Executing command line: "C:\Windows\System32\reagentc.exe" /setbootshelllink /configfile "C:\Recovery\OEM\bootmenu.xml" /target "C:\Windows"-----
+2024-02-14 09:07:34, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-14 09:07:34, Info                         [reagentc.exe] Enter WinReSetConfig
+2024-02-14 09:07:34, Info                         [reagentc.exe] Parameters: configWinDir: C:\Windows
+2024-02-14 09:07:34, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-02-14 09:07:34, Info                         [reagentc.exe] WinRE is installed
+2024-02-14 09:07:34, Info                         [reagentc.exe] Exit WinReSetConfig return value: 1, last error: 0x0
+2024-02-14 09:07:34, Info                         [reagentc.exe] Enter WinReSetCustomization
+2024-02-14 09:07:34, Info                         [reagentc.exe] Parameters: configWinDir: C:\Windows, pwszConfigFile: C:\Recovery\OEM\bootmenu.xml
+2024-02-14 09:07:34, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-02-14 09:07:34, Info                         [reagentc.exe] WinRE is installed
+2024-02-14 09:07:34, Info                         [reagentc.exe] Exit WinReSetCustomization return value: 1, last error: 0x0
+2024-02-14 09:07:34, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-14 09:07:34, Info                         [reagentc.exe] -----Exiting command line: "C:\Windows\System32\reagentc.exe" /setbootshelllink /configfile "C:\Recovery\OEM\bootmenu.xml" /target "C:\Windows", Error: 0-----
+2024-02-14 09:07:34, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-14 18:46:23, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-14 18:46:23, Info                         [reagentc.exe] -----Executing command line: "C:\Windows\System32\reagentc.exe"  /enable-----
+2024-02-14 18:46:23, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-14 18:46:23, Info                         [reagentc.exe] Enter WinRECheckGuid
+2024-02-14 18:46:23, Info                         [reagentc.exe] Parameter: TargetOsGuid: : NULL 
+2024-02-14 18:46:23, Info                         [reagentc.exe] Exit WinRECheckGuid return error code: 0x0
+2024-02-14 18:46:23, Info                         [reagentc.exe] Enter WinReInstall
+2024-02-14 18:46:23, Info                         [reagentc.exe] Parameter: ReInstallBecauseOfBitlocker: 0
+2024-02-14 18:46:23, Info                         [reagentc.exe] --Install on target OS step 1: collect info like partition list, loading reagent.xml, source winre.wim and partition
+2024-02-14 18:46:23, Info                         [reagentc.exe] Enumerate and log all fixed partitions:
+2024-02-14 18:46:23, Info                         [reagentc.exe] --Partition info--
+2024-02-14 18:46:23, Info                         [reagentc.exe] VolumeName: \\?\Volume{adf24af1-5ea0-43d7-a050-56a48c69f5aa}, PartitionName: \\?\GLOBALROOT\device\harddisk0\partition1
+2024-02-14 18:46:23, Info                         [reagentc.exe] Partition number: 1, offset: 1048576, free space: 4111360, total space: 100663296
+2024-02-14 18:46:23, Info                         [reagentc.exe] DiskNumber:0, DiskSignature:0, NTFS:0, Mbr:0, Active:0, Boot:0, BitlockerEnabled:0
+2024-02-14 18:46:23, Info                         [reagentc.exe] GPT partition GUID:: {C12A7328-F81F-11D2-BA4B-00A0C93EC93B} 
+2024-02-14 18:46:23, Info                         [reagentc.exe] DiskId: {8D676199-B565-423A-822A-2700AFE6650B} 
+2024-02-14 18:46:23, Info                         [reagentc.exe] --Partition info--
+2024-02-14 18:46:23, Info                         [reagentc.exe] VolumeName: \\?\Volume{09414a30-b102-4b8e-cd19-03c738b34c2a}, PartitionName: \\?\GLOBALROOT\device\harddisk0\partition5
+2024-02-14 18:46:23, Info                         [reagentc.exe] Partition number: 5, offset: 1023059951616, free space: 22654976, total space: 1138749440
+2024-02-14 18:46:23, Info                         [reagentc.exe] DiskNumber:0, DiskSignature:0, NTFS:1, Mbr:0, Active:0, Boot:0, BitlockerEnabled:0
+2024-02-14 18:46:23, Info                         [reagentc.exe] GPT partition GUID:: {DE94BBA4-06D1-4D40-A16A-BFD50179D6AC} 
+2024-02-14 18:46:23, Info                         [reagentc.exe] DiskId: {8D676199-B565-423A-822A-2700AFE6650B} 
+2024-02-14 18:46:23, Info                         [reagentc.exe] --Partition info--
+2024-02-14 18:46:23, Info                         [reagentc.exe] VolumeName: \\?\Volume{e61184a0-5287-479d-85f0-349e5f8d2de6}, PartitionName: \\?\GLOBALROOT\device\harddisk0\partition4
+2024-02-14 18:46:23, Info                         [reagentc.exe] Partition number: 4, offset: 1022512594944, free space: 93577216, total space: 546304000
+2024-02-14 18:46:23, Info                         [reagentc.exe] DiskNumber:0, DiskSignature:0, NTFS:1, Mbr:0, Active:0, Boot:0, BitlockerEnabled:0
+2024-02-14 18:46:23, Info                         [reagentc.exe] GPT partition GUID:: {DE94BBA4-06D1-4D40-A16A-BFD50179D6AC} 
+2024-02-14 18:46:23, Info                         [reagentc.exe] DiskId: {8D676199-B565-423A-822A-2700AFE6650B} 
+2024-02-14 18:46:23, Info                         [reagentc.exe] --Partition info--
+2024-02-14 18:46:23, Info                         [reagentc.exe] VolumeName: \\?\Volume{e6d298c3-2087-42c9-8c77-fa167fe96314}, PartitionName: \\?\GLOBALROOT\device\harddisk0\partition3
+2024-02-14 18:46:23, Info                         [reagentc.exe] Partition number: 3, offset: 122683392, free space: 395604283392, total space: 1022389907456
+2024-02-14 18:46:23, Info                         [reagentc.exe] DiskNumber:0, DiskSignature:0, NTFS:1, Mbr:0, Active:0, Boot:1, BitlockerEnabled:0
+2024-02-14 18:46:23, Info                         [reagentc.exe] GPT partition GUID:: {EBD0A0A2-B9E5-4433-87C0-68B6B72699C7} 
+2024-02-14 18:46:23, Info                         [reagentc.exe] DiskId: {8D676199-B565-423A-822A-2700AFE6650B} 
+2024-02-14 18:46:23, Info                         [reagentc.exe] Get downlevel ReAgent config
+2024-02-14 18:46:23, Info                         [reagentc.exe]  Downlevel config file path: \Recovery\ReAgentOld.xml
+2024-02-14 18:46:23, Info                         [reagentc.exe]  Checking for downlevel WinRE installation.
+2024-02-14 18:46:23, Info                         [reagentc.exe] First round search
+2024-02-14 18:46:23, Info                         [reagentc.exe] Get ReAgent config
+2024-02-14 18:46:23, Info                         [reagentc.exe] GetReAgentConfig Config file path: C:\Windows\system32\Recovery\ReAgent.xml
+2024-02-14 18:46:23, Info                         [reagentc.exe] CheckRegKey test hook (SystemSetupInProgress) present and disabled
+2024-02-14 18:46:23, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-02-14 18:46:23, Info                         [reagentc.exe] WinRE is installed
+2024-02-14 18:46:23, Info                         [reagentc.exe] --Install on target OS step 2: detect and fix if there is any issue for winre settings
+2024-02-14 18:46:23, Info                         [reagentc.exe] DetectAndFixWinReIssues (WinRE)WinRE is already installed, setting BCD entry (winre location \\?\GLOBALROOT\device\harddisk0\partition4\Recovery\WindowsRE)
+2024-02-14 18:46:23, Info                         [reagentc.exe] DetectAndFixWinReIssues Current Recovery Sequence is already set as the BCD id of WinRE.
+2024-02-14 18:46:23, Info                         [reagentc.exe] Current WinRE is ready. No need to make any further changes
+2024-02-14 18:46:23, Info                         [reagentc.exe] Exit WinReInstall return value: 1, last error: 0x0
+2024-02-14 18:46:23, Info                         [reagentc.exe] Enter WinReSetConfig
+2024-02-14 18:46:23, Info                         [reagentc.exe] Parameters: configWinDir: NULL
+2024-02-14 18:46:23, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-02-14 18:46:23, Info                         [reagentc.exe] WinRE is installed
+2024-02-14 18:46:23, Info                         [reagentc.exe] Exit WinReSetConfig return value: 1, last error: 0x0
+2024-02-14 18:46:23, Info                         [reagentc.exe] Clear non critical error when enabling auto repair
+2024-02-14 18:46:23, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-14 18:46:23, Info                         [reagentc.exe] -----Exiting command line: "C:\Windows\System32\reagentc.exe"  /enable, Error: 0-----
+2024-02-14 18:46:23, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-14 18:46:24, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-14 18:46:24, Info                         [reagentc.exe] -----Executing command line: "C:\Windows\System32\reagentc.exe" /setreimage /path "C:\ProgramData\Dell\SARemediation\WinRE\recovery\windowsre" /index 1 /target "C:\Windows"-----
+2024-02-14 18:46:24, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-14 18:46:24, Info                         [reagentc.exe] Enter WinReSetConfig
+2024-02-14 18:46:24, Info                         [reagentc.exe] Parameters: configWinDir: C:\Windows
+2024-02-14 18:46:24, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-02-14 18:46:24, Info                         [reagentc.exe] WinRE is installed
+2024-02-14 18:46:24, Info                         [reagentc.exe] Exit WinReSetConfig return value: 0, last error: 0xb7
+2024-02-14 18:46:24, Error                        [reagentc.exe] WinReSetConfig failed: : 0xb7
+2024-02-14 18:46:24, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-14 18:46:24, Info                         [reagentc.exe] -----Exiting command line: "C:\Windows\System32\reagentc.exe" /setreimage /path "C:\ProgramData\Dell\SARemediation\WinRE\recovery\windowsre" /index 1 /target "C:\Windows", Error: 183-----
+2024-02-14 18:46:24, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-14 18:46:24, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-14 18:46:24, Info                         [reagentc.exe] -----Executing command line: "C:\Windows\System32\reagentc.exe" /setbootshelllink /configfile "C:\Recovery\OEM\bootmenu.xml" /target "C:\Windows"-----
+2024-02-14 18:46:24, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-14 18:46:24, Info                         [reagentc.exe] Enter WinReSetConfig
+2024-02-14 18:46:24, Info                         [reagentc.exe] Parameters: configWinDir: C:\Windows
+2024-02-14 18:46:24, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-02-14 18:46:24, Info                         [reagentc.exe] WinRE is installed
+2024-02-14 18:46:24, Info                         [reagentc.exe] Exit WinReSetConfig return value: 1, last error: 0x0
+2024-02-14 18:46:24, Info                         [reagentc.exe] Enter WinReSetCustomization
+2024-02-14 18:46:24, Info                         [reagentc.exe] Parameters: configWinDir: C:\Windows, pwszConfigFile: C:\Recovery\OEM\bootmenu.xml
+2024-02-14 18:46:24, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-02-14 18:46:24, Info                         [reagentc.exe] WinRE is installed
+2024-02-14 18:46:24, Info                         [reagentc.exe] Exit WinReSetCustomization return value: 1, last error: 0x0
+2024-02-14 18:46:24, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-14 18:46:24, Info                         [reagentc.exe] -----Exiting command line: "C:\Windows\System32\reagentc.exe" /setbootshelllink /configfile "C:\Recovery\OEM\bootmenu.xml" /target "C:\Windows", Error: 0-----
+2024-02-14 18:46:24, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-18 13:38:19, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-18 13:38:19, Info                         [reagentc.exe] -----Executing command line: "C:\Windows\System32\reagentc.exe"  /enable-----
+2024-02-18 13:38:19, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-18 13:38:19, Info                         [reagentc.exe] Enter WinRECheckGuid
+2024-02-18 13:38:19, Info                         [reagentc.exe] Parameter: TargetOsGuid: : NULL 
+2024-02-18 13:38:19, Info                         [reagentc.exe] Exit WinRECheckGuid return error code: 0x0
+2024-02-18 13:38:19, Info                         [reagentc.exe] Enter WinReInstall
+2024-02-18 13:38:19, Info                         [reagentc.exe] Parameter: ReInstallBecauseOfBitlocker: 0
+2024-02-18 13:38:19, Info                         [reagentc.exe] --Install on target OS step 1: collect info like partition list, loading reagent.xml, source winre.wim and partition
+2024-02-18 13:38:19, Info                         [reagentc.exe] Enumerate and log all fixed partitions:
+2024-02-18 13:38:19, Info                         [reagentc.exe] --Partition info--
+2024-02-18 13:38:19, Info                         [reagentc.exe] VolumeName: \\?\Volume{adf24af1-5ea0-43d7-a050-56a48c69f5aa}, PartitionName: \\?\GLOBALROOT\device\harddisk0\partition1
+2024-02-18 13:38:19, Info                         [reagentc.exe] Partition number: 1, offset: 1048576, free space: 4111360, total space: 100663296
+2024-02-18 13:38:19, Info                         [reagentc.exe] DiskNumber:0, DiskSignature:0, NTFS:0, Mbr:0, Active:0, Boot:0, BitlockerEnabled:0
+2024-02-18 13:38:19, Info                         [reagentc.exe] GPT partition GUID:: {C12A7328-F81F-11D2-BA4B-00A0C93EC93B} 
+2024-02-18 13:38:19, Info                         [reagentc.exe] DiskId: {8D676199-B565-423A-822A-2700AFE6650B} 
+2024-02-18 13:38:19, Info                         [reagentc.exe] --Partition info--
+2024-02-18 13:38:19, Info                         [reagentc.exe] VolumeName: \\?\Volume{09414a30-b102-4b8e-cd19-03c738b34c2a}, PartitionName: \\?\GLOBALROOT\device\harddisk0\partition5
+2024-02-18 13:38:19, Info                         [reagentc.exe] Partition number: 5, offset: 1023059951616, free space: 22654976, total space: 1138749440
+2024-02-18 13:38:19, Info                         [reagentc.exe] DiskNumber:0, DiskSignature:0, NTFS:1, Mbr:0, Active:0, Boot:0, BitlockerEnabled:0
+2024-02-18 13:38:19, Info                         [reagentc.exe] GPT partition GUID:: {DE94BBA4-06D1-4D40-A16A-BFD50179D6AC} 
+2024-02-18 13:38:19, Info                         [reagentc.exe] DiskId: {8D676199-B565-423A-822A-2700AFE6650B} 
+2024-02-18 13:38:19, Info                         [reagentc.exe] --Partition info--
+2024-02-18 13:38:19, Info                         [reagentc.exe] VolumeName: \\?\Volume{e61184a0-5287-479d-85f0-349e5f8d2de6}, PartitionName: \\?\GLOBALROOT\device\harddisk0\partition4
+2024-02-18 13:38:19, Info                         [reagentc.exe] Partition number: 4, offset: 1022512594944, free space: 93577216, total space: 546304000
+2024-02-18 13:38:19, Info                         [reagentc.exe] DiskNumber:0, DiskSignature:0, NTFS:1, Mbr:0, Active:0, Boot:0, BitlockerEnabled:0
+2024-02-18 13:38:19, Info                         [reagentc.exe] GPT partition GUID:: {DE94BBA4-06D1-4D40-A16A-BFD50179D6AC} 
+2024-02-18 13:38:19, Info                         [reagentc.exe] DiskId: {8D676199-B565-423A-822A-2700AFE6650B} 
+2024-02-18 13:38:19, Info                         [reagentc.exe] --Partition info--
+2024-02-18 13:38:19, Info                         [reagentc.exe] VolumeName: \\?\Volume{e6d298c3-2087-42c9-8c77-fa167fe96314}, PartitionName: \\?\GLOBALROOT\device\harddisk0\partition3
+2024-02-18 13:38:19, Info                         [reagentc.exe] Partition number: 3, offset: 122683392, free space: 401286004736, total space: 1022389907456
+2024-02-18 13:38:19, Info                         [reagentc.exe] DiskNumber:0, DiskSignature:0, NTFS:1, Mbr:0, Active:0, Boot:1, BitlockerEnabled:0
+2024-02-18 13:38:19, Info                         [reagentc.exe] GPT partition GUID:: {EBD0A0A2-B9E5-4433-87C0-68B6B72699C7} 
+2024-02-18 13:38:19, Info                         [reagentc.exe] DiskId: {8D676199-B565-423A-822A-2700AFE6650B} 
+2024-02-18 13:38:19, Info                         [reagentc.exe] Get downlevel ReAgent config
+2024-02-18 13:38:19, Info                         [reagentc.exe]  Downlevel config file path: \Recovery\ReAgentOld.xml
+2024-02-18 13:38:19, Info                         [reagentc.exe]  Checking for downlevel WinRE installation.
+2024-02-18 13:38:19, Info                         [reagentc.exe] First round search
+2024-02-18 13:38:19, Info                         [reagentc.exe] Get ReAgent config
+2024-02-18 13:38:19, Info                         [reagentc.exe] GetReAgentConfig Config file path: C:\Windows\system32\Recovery\ReAgent.xml
+2024-02-18 13:38:19, Info                         [reagentc.exe] CheckRegKey test hook (SystemSetupInProgress) present and disabled
+2024-02-18 13:38:19, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-02-18 13:38:19, Info                         [reagentc.exe] WinRE is installed
+2024-02-18 13:38:19, Info                         [reagentc.exe] --Install on target OS step 2: detect and fix if there is any issue for winre settings
+2024-02-18 13:38:19, Info                         [reagentc.exe] DetectAndFixWinReIssues (WinRE)WinRE is already installed, setting BCD entry (winre location \\?\GLOBALROOT\device\harddisk0\partition4\Recovery\WindowsRE)
+2024-02-18 13:38:19, Info                         [reagentc.exe] DetectAndFixWinReIssues Current Recovery Sequence is already set as the BCD id of WinRE.
+2024-02-18 13:38:19, Info                         [reagentc.exe] Current WinRE is ready. No need to make any further changes
+2024-02-18 13:38:19, Info                         [reagentc.exe] Exit WinReInstall return value: 1, last error: 0x0
+2024-02-18 13:38:19, Info                         [reagentc.exe] Enter WinReSetConfig
+2024-02-18 13:38:19, Info                         [reagentc.exe] Parameters: configWinDir: NULL
+2024-02-18 13:38:19, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-02-18 13:38:19, Info                         [reagentc.exe] WinRE is installed
+2024-02-18 13:38:19, Info                         [reagentc.exe] Exit WinReSetConfig return value: 1, last error: 0x0
+2024-02-18 13:38:19, Info                         [reagentc.exe] Clear non critical error when enabling auto repair
+2024-02-18 13:38:19, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-18 13:38:19, Info                         [reagentc.exe] -----Exiting command line: "C:\Windows\System32\reagentc.exe"  /enable, Error: 0-----
+2024-02-18 13:38:19, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-18 13:38:19, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-18 13:38:19, Info                         [reagentc.exe] -----Executing command line: "C:\Windows\System32\reagentc.exe" /setreimage /path "C:\ProgramData\Dell\SARemediation\WinRE\recovery\windowsre" /index 1 /target "C:\Windows"-----
+2024-02-18 13:38:19, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-18 13:38:19, Info                         [reagentc.exe] Enter WinReSetConfig
+2024-02-18 13:38:19, Info                         [reagentc.exe] Parameters: configWinDir: C:\Windows
+2024-02-18 13:38:19, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-02-18 13:38:19, Info                         [reagentc.exe] WinRE is installed
+2024-02-18 13:38:19, Info                         [reagentc.exe] Exit WinReSetConfig return value: 0, last error: 0xb7
+2024-02-18 13:38:19, Error                        [reagentc.exe] WinReSetConfig failed: : 0xb7
+2024-02-18 13:38:19, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-18 13:38:19, Info                         [reagentc.exe] -----Exiting command line: "C:\Windows\System32\reagentc.exe" /setreimage /path "C:\ProgramData\Dell\SARemediation\WinRE\recovery\windowsre" /index 1 /target "C:\Windows", Error: 183-----
+2024-02-18 13:38:19, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-18 13:38:19, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-18 13:38:19, Info                         [reagentc.exe] -----Executing command line: "C:\Windows\System32\reagentc.exe" /setbootshelllink /configfile "C:\Recovery\OEM\bootmenu.xml" /target "C:\Windows"-----
+2024-02-18 13:38:19, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-18 13:38:19, Info                         [reagentc.exe] Enter WinReSetConfig
+2024-02-18 13:38:19, Info                         [reagentc.exe] Parameters: configWinDir: C:\Windows
+2024-02-18 13:38:19, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-02-18 13:38:19, Info                         [reagentc.exe] WinRE is installed
+2024-02-18 13:38:19, Info                         [reagentc.exe] Exit WinReSetConfig return value: 1, last error: 0x0
+2024-02-18 13:38:19, Info                         [reagentc.exe] Enter WinReSetCustomization
+2024-02-18 13:38:19, Info                         [reagentc.exe] Parameters: configWinDir: C:\Windows, pwszConfigFile: C:\Recovery\OEM\bootmenu.xml
+2024-02-18 13:38:19, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-02-18 13:38:20, Info                         [reagentc.exe] WinRE is installed
+2024-02-18 13:38:20, Info                         [reagentc.exe] Exit WinReSetCustomization return value: 1, last error: 0x0
+2024-02-18 13:38:20, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-18 13:38:20, Info                         [reagentc.exe] -----Exiting command line: "C:\Windows\System32\reagentc.exe" /setbootshelllink /configfile "C:\Recovery\OEM\bootmenu.xml" /target "C:\Windows", Error: 0-----
+2024-02-18 13:38:20, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-19 09:09:22, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-19 09:09:22, Info                         [reagentc.exe] -----Executing command line: "C:\Windows\System32\reagentc.exe"  /enable-----
+2024-02-19 09:09:22, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-19 09:09:22, Info                         [reagentc.exe] Enter WinRECheckGuid
+2024-02-19 09:09:22, Info                         [reagentc.exe] Parameter: TargetOsGuid: : NULL 
+2024-02-19 09:09:22, Info                         [reagentc.exe] Exit WinRECheckGuid return error code: 0x0
+2024-02-19 09:09:22, Info                         [reagentc.exe] Enter WinReInstall
+2024-02-19 09:09:22, Info                         [reagentc.exe] Parameter: ReInstallBecauseOfBitlocker: 0
+2024-02-19 09:09:22, Info                         [reagentc.exe] --Install on target OS step 1: collect info like partition list, loading reagent.xml, source winre.wim and partition
+2024-02-19 09:09:22, Info                         [reagentc.exe] Enumerate and log all fixed partitions:
+2024-02-19 09:09:22, Info                         [reagentc.exe] --Partition info--
+2024-02-19 09:09:22, Info                         [reagentc.exe] VolumeName: \\?\Volume{adf24af1-5ea0-43d7-a050-56a48c69f5aa}, PartitionName: \\?\GLOBALROOT\device\harddisk0\partition1
+2024-02-19 09:09:22, Info                         [reagentc.exe] Partition number: 1, offset: 1048576, free space: 4111360, total space: 100663296
+2024-02-19 09:09:22, Info                         [reagentc.exe] DiskNumber:0, DiskSignature:0, NTFS:0, Mbr:0, Active:0, Boot:0, BitlockerEnabled:0
+2024-02-19 09:09:22, Info                         [reagentc.exe] GPT partition GUID:: {C12A7328-F81F-11D2-BA4B-00A0C93EC93B} 
+2024-02-19 09:09:22, Info                         [reagentc.exe] DiskId: {8D676199-B565-423A-822A-2700AFE6650B} 
+2024-02-19 09:09:22, Info                         [reagentc.exe] --Partition info--
+2024-02-19 09:09:22, Info                         [reagentc.exe] VolumeName: \\?\Volume{09414a30-b102-4b8e-cd19-03c738b34c2a}, PartitionName: \\?\GLOBALROOT\device\harddisk0\partition5
+2024-02-19 09:09:22, Info                         [reagentc.exe] Partition number: 5, offset: 1023059951616, free space: 22654976, total space: 1138749440
+2024-02-19 09:09:22, Info                         [reagentc.exe] DiskNumber:0, DiskSignature:0, NTFS:1, Mbr:0, Active:0, Boot:0, BitlockerEnabled:0
+2024-02-19 09:09:22, Info                         [reagentc.exe] GPT partition GUID:: {DE94BBA4-06D1-4D40-A16A-BFD50179D6AC} 
+2024-02-19 09:09:22, Info                         [reagentc.exe] DiskId: {8D676199-B565-423A-822A-2700AFE6650B} 
+2024-02-19 09:09:22, Info                         [reagentc.exe] --Partition info--
+2024-02-19 09:09:22, Info                         [reagentc.exe] VolumeName: \\?\Volume{e61184a0-5287-479d-85f0-349e5f8d2de6}, PartitionName: \\?\GLOBALROOT\device\harddisk0\partition4
+2024-02-19 09:09:22, Info                         [reagentc.exe] Partition number: 4, offset: 1022512594944, free space: 93577216, total space: 546304000
+2024-02-19 09:09:22, Info                         [reagentc.exe] DiskNumber:0, DiskSignature:0, NTFS:1, Mbr:0, Active:0, Boot:0, BitlockerEnabled:0
+2024-02-19 09:09:22, Info                         [reagentc.exe] GPT partition GUID:: {DE94BBA4-06D1-4D40-A16A-BFD50179D6AC} 
+2024-02-19 09:09:22, Info                         [reagentc.exe] DiskId: {8D676199-B565-423A-822A-2700AFE6650B} 
+2024-02-19 09:09:22, Info                         [reagentc.exe] --Partition info--
+2024-02-19 09:09:22, Info                         [reagentc.exe] VolumeName: \\?\Volume{e6d298c3-2087-42c9-8c77-fa167fe96314}, PartitionName: \\?\GLOBALROOT\device\harddisk0\partition3
+2024-02-19 09:09:22, Info                         [reagentc.exe] Partition number: 3, offset: 122683392, free space: 401552183296, total space: 1022389907456
+2024-02-19 09:09:22, Info                         [reagentc.exe] DiskNumber:0, DiskSignature:0, NTFS:1, Mbr:0, Active:0, Boot:1, BitlockerEnabled:0
+2024-02-19 09:09:22, Info                         [reagentc.exe] GPT partition GUID:: {EBD0A0A2-B9E5-4433-87C0-68B6B72699C7} 
+2024-02-19 09:09:22, Info                         [reagentc.exe] DiskId: {8D676199-B565-423A-822A-2700AFE6650B} 
+2024-02-19 09:09:22, Info                         [reagentc.exe] Get downlevel ReAgent config
+2024-02-19 09:09:22, Info                         [reagentc.exe]  Downlevel config file path: \Recovery\ReAgentOld.xml
+2024-02-19 09:09:22, Info                         [reagentc.exe]  Checking for downlevel WinRE installation.
+2024-02-19 09:09:22, Info                         [reagentc.exe] First round search
+2024-02-19 09:09:22, Info                         [reagentc.exe] Get ReAgent config
+2024-02-19 09:09:22, Info                         [reagentc.exe] GetReAgentConfig Config file path: C:\Windows\system32\Recovery\ReAgent.xml
+2024-02-19 09:09:22, Info                         [reagentc.exe] CheckRegKey test hook (SystemSetupInProgress) present and disabled
+2024-02-19 09:09:22, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-02-19 09:09:22, Info                         [reagentc.exe] WinRE is installed
+2024-02-19 09:09:22, Info                         [reagentc.exe] --Install on target OS step 2: detect and fix if there is any issue for winre settings
+2024-02-19 09:09:22, Info                         [reagentc.exe] DetectAndFixWinReIssues (WinRE)WinRE is already installed, setting BCD entry (winre location \\?\GLOBALROOT\device\harddisk0\partition4\Recovery\WindowsRE)
+2024-02-19 09:09:22, Info                         [reagentc.exe] DetectAndFixWinReIssues Current Recovery Sequence is already set as the BCD id of WinRE.
+2024-02-19 09:09:22, Info                         [reagentc.exe] Current WinRE is ready. No need to make any further changes
+2024-02-19 09:09:22, Info                         [reagentc.exe] Exit WinReInstall return value: 1, last error: 0x0
+2024-02-19 09:09:22, Info                         [reagentc.exe] Enter WinReSetConfig
+2024-02-19 09:09:22, Info                         [reagentc.exe] Parameters: configWinDir: NULL
+2024-02-19 09:09:22, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-02-19 09:09:23, Info                         [reagentc.exe] WinRE is installed
+2024-02-19 09:09:23, Info                         [reagentc.exe] Exit WinReSetConfig return value: 1, last error: 0x0
+2024-02-19 09:09:23, Info                         [reagentc.exe] Clear non critical error when enabling auto repair
+2024-02-19 09:09:23, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-19 09:09:23, Info                         [reagentc.exe] -----Exiting command line: "C:\Windows\System32\reagentc.exe"  /enable, Error: 0-----
+2024-02-19 09:09:23, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-19 09:09:23, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-19 09:09:23, Info                         [reagentc.exe] -----Executing command line: "C:\Windows\System32\reagentc.exe" /setreimage /path "C:\ProgramData\Dell\SARemediation\WinRE\recovery\windowsre" /index 1 /target "C:\Windows"-----
+2024-02-19 09:09:23, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-19 09:09:23, Info                         [reagentc.exe] Enter WinReSetConfig
+2024-02-19 09:09:23, Info                         [reagentc.exe] Parameters: configWinDir: C:\Windows
+2024-02-19 09:09:23, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-02-19 09:09:23, Info                         [reagentc.exe] WinRE is installed
+2024-02-19 09:09:23, Info                         [reagentc.exe] Exit WinReSetConfig return value: 0, last error: 0xb7
+2024-02-19 09:09:23, Error                        [reagentc.exe] WinReSetConfig failed: : 0xb7
+2024-02-19 09:09:23, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-19 09:09:23, Info                         [reagentc.exe] -----Exiting command line: "C:\Windows\System32\reagentc.exe" /setreimage /path "C:\ProgramData\Dell\SARemediation\WinRE\recovery\windowsre" /index 1 /target "C:\Windows", Error: 183-----
+2024-02-19 09:09:23, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-19 09:09:23, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-19 09:09:23, Info                         [reagentc.exe] -----Executing command line: "C:\Windows\System32\reagentc.exe" /setbootshelllink /configfile "C:\Recovery\OEM\bootmenu.xml" /target "C:\Windows"-----
+2024-02-19 09:09:23, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-19 09:09:23, Info                         [reagentc.exe] Enter WinReSetConfig
+2024-02-19 09:09:23, Info                         [reagentc.exe] Parameters: configWinDir: C:\Windows
+2024-02-19 09:09:23, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-02-19 09:09:23, Info                         [reagentc.exe] WinRE is installed
+2024-02-19 09:09:23, Info                         [reagentc.exe] Exit WinReSetConfig return value: 1, last error: 0x0
+2024-02-19 09:09:23, Info                         [reagentc.exe] Enter WinReSetCustomization
+2024-02-19 09:09:23, Info                         [reagentc.exe] Parameters: configWinDir: C:\Windows, pwszConfigFile: C:\Recovery\OEM\bootmenu.xml
+2024-02-19 09:09:23, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-02-19 09:09:23, Info                         [reagentc.exe] WinRE is installed
+2024-02-19 09:09:23, Info                         [reagentc.exe] Exit WinReSetCustomization return value: 1, last error: 0x0
+2024-02-19 09:09:23, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-19 09:09:23, Info                         [reagentc.exe] -----Exiting command line: "C:\Windows\System32\reagentc.exe" /setbootshelllink /configfile "C:\Recovery\OEM\bootmenu.xml" /target "C:\Windows", Error: 0-----
+2024-02-19 09:09:23, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-19 16:22:19, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-19 16:22:19, Info                         [reagentc.exe] -----Executing command line: "C:\Windows\System32\reagentc.exe"  /enable-----
+2024-02-19 16:22:19, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-19 16:22:19, Info                         [reagentc.exe] Enter WinRECheckGuid
+2024-02-19 16:22:19, Info                         [reagentc.exe] Parameter: TargetOsGuid: : NULL 
+2024-02-19 16:22:20, Info                         [reagentc.exe] Exit WinRECheckGuid return error code: 0x0
+2024-02-19 16:22:20, Info                         [reagentc.exe] Enter WinReInstall
+2024-02-19 16:22:20, Info                         [reagentc.exe] Parameter: ReInstallBecauseOfBitlocker: 0
+2024-02-19 16:22:20, Info                         [reagentc.exe] --Install on target OS step 1: collect info like partition list, loading reagent.xml, source winre.wim and partition
+2024-02-19 16:22:20, Info                         [reagentc.exe] Enumerate and log all fixed partitions:
+2024-02-19 16:22:20, Info                         [reagentc.exe] --Partition info--
+2024-02-19 16:22:20, Info                         [reagentc.exe] VolumeName: \\?\Volume{adf24af1-5ea0-43d7-a050-56a48c69f5aa}, PartitionName: \\?\GLOBALROOT\device\harddisk0\partition1
+2024-02-19 16:22:20, Info                         [reagentc.exe] Partition number: 1, offset: 1048576, free space: 4111360, total space: 100663296
+2024-02-19 16:22:20, Info                         [reagentc.exe] DiskNumber:0, DiskSignature:0, NTFS:0, Mbr:0, Active:0, Boot:0, BitlockerEnabled:0
+2024-02-19 16:22:20, Info                         [reagentc.exe] GPT partition GUID:: {C12A7328-F81F-11D2-BA4B-00A0C93EC93B} 
+2024-02-19 16:22:20, Info                         [reagentc.exe] DiskId: {8D676199-B565-423A-822A-2700AFE6650B} 
+2024-02-19 16:22:20, Info                         [reagentc.exe] --Partition info--
+2024-02-19 16:22:20, Info                         [reagentc.exe] VolumeName: \\?\Volume{09414a30-b102-4b8e-cd19-03c738b34c2a}, PartitionName: \\?\GLOBALROOT\device\harddisk0\partition5
+2024-02-19 16:22:20, Info                         [reagentc.exe] Partition number: 5, offset: 1023059951616, free space: 22654976, total space: 1138749440
+2024-02-19 16:22:20, Info                         [reagentc.exe] DiskNumber:0, DiskSignature:0, NTFS:1, Mbr:0, Active:0, Boot:0, BitlockerEnabled:0
+2024-02-19 16:22:20, Info                         [reagentc.exe] GPT partition GUID:: {DE94BBA4-06D1-4D40-A16A-BFD50179D6AC} 
+2024-02-19 16:22:20, Info                         [reagentc.exe] DiskId: {8D676199-B565-423A-822A-2700AFE6650B} 
+2024-02-19 16:22:20, Info                         [reagentc.exe] --Partition info--
+2024-02-19 16:22:20, Info                         [reagentc.exe] VolumeName: \\?\Volume{e61184a0-5287-479d-85f0-349e5f8d2de6}, PartitionName: \\?\GLOBALROOT\device\harddisk0\partition4
+2024-02-19 16:22:20, Info                         [reagentc.exe] Partition number: 4, offset: 1022512594944, free space: 93577216, total space: 546304000
+2024-02-19 16:22:20, Info                         [reagentc.exe] DiskNumber:0, DiskSignature:0, NTFS:1, Mbr:0, Active:0, Boot:0, BitlockerEnabled:0
+2024-02-19 16:22:20, Info                         [reagentc.exe] GPT partition GUID:: {DE94BBA4-06D1-4D40-A16A-BFD50179D6AC} 
+2024-02-19 16:22:20, Info                         [reagentc.exe] DiskId: {8D676199-B565-423A-822A-2700AFE6650B} 
+2024-02-19 16:22:20, Info                         [reagentc.exe] --Partition info--
+2024-02-19 16:22:20, Info                         [reagentc.exe] VolumeName: \\?\Volume{e6d298c3-2087-42c9-8c77-fa167fe96314}, PartitionName: \\?\GLOBALROOT\device\harddisk0\partition3
+2024-02-19 16:22:20, Info                         [reagentc.exe] Partition number: 3, offset: 122683392, free space: 401157554176, total space: 1022389907456
+2024-02-19 16:22:20, Info                         [reagentc.exe] DiskNumber:0, DiskSignature:0, NTFS:1, Mbr:0, Active:0, Boot:1, BitlockerEnabled:0
+2024-02-19 16:22:20, Info                         [reagentc.exe] GPT partition GUID:: {EBD0A0A2-B9E5-4433-87C0-68B6B72699C7} 
+2024-02-19 16:22:20, Info                         [reagentc.exe] DiskId: {8D676199-B565-423A-822A-2700AFE6650B} 
+2024-02-19 16:22:20, Info                         [reagentc.exe] Get downlevel ReAgent config
+2024-02-19 16:22:20, Info                         [reagentc.exe]  Downlevel config file path: \Recovery\ReAgentOld.xml
+2024-02-19 16:22:20, Info                         [reagentc.exe]  Checking for downlevel WinRE installation.
+2024-02-19 16:22:20, Info                         [reagentc.exe] First round search
+2024-02-19 16:22:20, Info                         [reagentc.exe] Get ReAgent config
+2024-02-19 16:22:20, Info                         [reagentc.exe] GetReAgentConfig Config file path: C:\Windows\system32\Recovery\ReAgent.xml
+2024-02-19 16:22:20, Info                         [reagentc.exe] CheckRegKey test hook (SystemSetupInProgress) present and disabled
+2024-02-19 16:22:20, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-02-19 16:22:20, Info                         [reagentc.exe] WinRE is installed
+2024-02-19 16:22:20, Info                         [reagentc.exe] --Install on target OS step 2: detect and fix if there is any issue for winre settings
+2024-02-19 16:22:20, Info                         [reagentc.exe] DetectAndFixWinReIssues (WinRE)WinRE is already installed, setting BCD entry (winre location \\?\GLOBALROOT\device\harddisk0\partition4\Recovery\WindowsRE)
+2024-02-19 16:22:20, Info                         [reagentc.exe] DetectAndFixWinReIssues Current Recovery Sequence is already set as the BCD id of WinRE.
+2024-02-19 16:22:20, Info                         [reagentc.exe] Current WinRE is ready. No need to make any further changes
+2024-02-19 16:22:20, Info                         [reagentc.exe] Exit WinReInstall return value: 1, last error: 0x0
+2024-02-19 16:22:20, Info                         [reagentc.exe] Enter WinReSetConfig
+2024-02-19 16:22:20, Info                         [reagentc.exe] Parameters: configWinDir: NULL
+2024-02-19 16:22:20, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-02-19 16:22:20, Info                         [reagentc.exe] WinRE is installed
+2024-02-19 16:22:20, Info                         [reagentc.exe] Exit WinReSetConfig return value: 1, last error: 0x0
+2024-02-19 16:22:20, Info                         [reagentc.exe] Clear non critical error when enabling auto repair
+2024-02-19 16:22:20, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-19 16:22:20, Info                         [reagentc.exe] -----Exiting command line: "C:\Windows\System32\reagentc.exe"  /enable, Error: 0-----
+2024-02-19 16:22:20, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-19 16:22:20, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-19 16:22:20, Info                         [reagentc.exe] -----Executing command line: "C:\Windows\System32\reagentc.exe" /setreimage /path "C:\ProgramData\Dell\SARemediation\WinRE\recovery\windowsre" /index 1 /target "C:\Windows"-----
+2024-02-19 16:22:20, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-19 16:22:20, Info                         [reagentc.exe] Enter WinReSetConfig
+2024-02-19 16:22:20, Info                         [reagentc.exe] Parameters: configWinDir: C:\Windows
+2024-02-19 16:22:20, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-02-19 16:22:20, Info                         [reagentc.exe] WinRE is installed
+2024-02-19 16:22:20, Info                         [reagentc.exe] Exit WinReSetConfig return value: 0, last error: 0xb7
+2024-02-19 16:22:20, Error                        [reagentc.exe] WinReSetConfig failed: : 0xb7
+2024-02-19 16:22:20, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-19 16:22:20, Info                         [reagentc.exe] -----Exiting command line: "C:\Windows\System32\reagentc.exe" /setreimage /path "C:\ProgramData\Dell\SARemediation\WinRE\recovery\windowsre" /index 1 /target "C:\Windows", Error: 183-----
+2024-02-19 16:22:20, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-19 16:22:20, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-19 16:22:20, Info                         [reagentc.exe] -----Executing command line: "C:\Windows\System32\reagentc.exe" /setbootshelllink /configfile "C:\Recovery\OEM\bootmenu.xml" /target "C:\Windows"-----
+2024-02-19 16:22:20, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-19 16:22:20, Info                         [reagentc.exe] Enter WinReSetConfig
+2024-02-19 16:22:20, Info                         [reagentc.exe] Parameters: configWinDir: C:\Windows
+2024-02-19 16:22:20, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-02-19 16:22:20, Info                         [reagentc.exe] WinRE is installed
+2024-02-19 16:22:20, Info                         [reagentc.exe] Exit WinReSetConfig return value: 1, last error: 0x0
+2024-02-19 16:22:20, Info                         [reagentc.exe] Enter WinReSetCustomization
+2024-02-19 16:22:20, Info                         [reagentc.exe] Parameters: configWinDir: C:\Windows, pwszConfigFile: C:\Recovery\OEM\bootmenu.xml
+2024-02-19 16:22:20, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-02-19 16:22:21, Info                         [reagentc.exe] WinRE is installed
+2024-02-19 16:22:21, Info                         [reagentc.exe] Exit WinReSetCustomization return value: 1, last error: 0x0
+2024-02-19 16:22:21, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-19 16:22:21, Info                         [reagentc.exe] -----Exiting command line: "C:\Windows\System32\reagentc.exe" /setbootshelllink /configfile "C:\Recovery\OEM\bootmenu.xml" /target "C:\Windows", Error: 0-----
+2024-02-19 16:22:21, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-19 20:18:02, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-19 20:18:02, Info                         [reagentc.exe] -----Executing command line: "C:\Windows\System32\reagentc.exe"  /enable-----
+2024-02-19 20:18:02, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-19 20:18:02, Info                         [reagentc.exe] Enter WinRECheckGuid
+2024-02-19 20:18:02, Info                         [reagentc.exe] Parameter: TargetOsGuid: : NULL 
+2024-02-19 20:18:02, Info                         [reagentc.exe] Exit WinRECheckGuid return error code: 0x0
+2024-02-19 20:18:02, Info                         [reagentc.exe] Enter WinReInstall
+2024-02-19 20:18:02, Info                         [reagentc.exe] Parameter: ReInstallBecauseOfBitlocker: 0
+2024-02-19 20:18:02, Info                         [reagentc.exe] --Install on target OS step 1: collect info like partition list, loading reagent.xml, source winre.wim and partition
+2024-02-19 20:18:02, Info                         [reagentc.exe] Enumerate and log all fixed partitions:
+2024-02-19 20:18:02, Info                         [reagentc.exe] --Partition info--
+2024-02-19 20:18:02, Info                         [reagentc.exe] VolumeName: \\?\Volume{adf24af1-5ea0-43d7-a050-56a48c69f5aa}, PartitionName: \\?\GLOBALROOT\device\harddisk0\partition1
+2024-02-19 20:18:02, Info                         [reagentc.exe] Partition number: 1, offset: 1048576, free space: 4111360, total space: 100663296
+2024-02-19 20:18:02, Info                         [reagentc.exe] DiskNumber:0, DiskSignature:0, NTFS:0, Mbr:0, Active:0, Boot:0, BitlockerEnabled:0
+2024-02-19 20:18:02, Info                         [reagentc.exe] GPT partition GUID:: {C12A7328-F81F-11D2-BA4B-00A0C93EC93B} 
+2024-02-19 20:18:02, Info                         [reagentc.exe] DiskId: {8D676199-B565-423A-822A-2700AFE6650B} 
+2024-02-19 20:18:02, Info                         [reagentc.exe] --Partition info--
+2024-02-19 20:18:02, Info                         [reagentc.exe] VolumeName: \\?\Volume{09414a30-b102-4b8e-cd19-03c738b34c2a}, PartitionName: \\?\GLOBALROOT\device\harddisk0\partition5
+2024-02-19 20:18:02, Info                         [reagentc.exe] Partition number: 5, offset: 1023059951616, free space: 22654976, total space: 1138749440
+2024-02-19 20:18:02, Info                         [reagentc.exe] DiskNumber:0, DiskSignature:0, NTFS:1, Mbr:0, Active:0, Boot:0, BitlockerEnabled:0
+2024-02-19 20:18:02, Info                         [reagentc.exe] GPT partition GUID:: {DE94BBA4-06D1-4D40-A16A-BFD50179D6AC} 
+2024-02-19 20:18:02, Info                         [reagentc.exe] DiskId: {8D676199-B565-423A-822A-2700AFE6650B} 
+2024-02-19 20:18:02, Info                         [reagentc.exe] --Partition info--
+2024-02-19 20:18:02, Info                         [reagentc.exe] VolumeName: \\?\Volume{e61184a0-5287-479d-85f0-349e5f8d2de6}, PartitionName: \\?\GLOBALROOT\device\harddisk0\partition4
+2024-02-19 20:18:02, Info                         [reagentc.exe] Partition number: 4, offset: 1022512594944, free space: 93577216, total space: 546304000
+2024-02-19 20:18:02, Info                         [reagentc.exe] DiskNumber:0, DiskSignature:0, NTFS:1, Mbr:0, Active:0, Boot:0, BitlockerEnabled:0
+2024-02-19 20:18:02, Info                         [reagentc.exe] GPT partition GUID:: {DE94BBA4-06D1-4D40-A16A-BFD50179D6AC} 
+2024-02-19 20:18:02, Info                         [reagentc.exe] DiskId: {8D676199-B565-423A-822A-2700AFE6650B} 
+2024-02-19 20:18:02, Info                         [reagentc.exe] --Partition info--
+2024-02-19 20:18:02, Info                         [reagentc.exe] VolumeName: \\?\Volume{e6d298c3-2087-42c9-8c77-fa167fe96314}, PartitionName: \\?\GLOBALROOT\device\harddisk0\partition3
+2024-02-19 20:18:02, Info                         [reagentc.exe] Partition number: 3, offset: 122683392, free space: 399995609088, total space: 1022389907456
+2024-02-19 20:18:02, Info                         [reagentc.exe] DiskNumber:0, DiskSignature:0, NTFS:1, Mbr:0, Active:0, Boot:1, BitlockerEnabled:0
+2024-02-19 20:18:02, Info                         [reagentc.exe] GPT partition GUID:: {EBD0A0A2-B9E5-4433-87C0-68B6B72699C7} 
+2024-02-19 20:18:02, Info                         [reagentc.exe] DiskId: {8D676199-B565-423A-822A-2700AFE6650B} 
+2024-02-19 20:18:02, Info                         [reagentc.exe] Get downlevel ReAgent config
+2024-02-19 20:18:02, Info                         [reagentc.exe]  Downlevel config file path: \Recovery\ReAgentOld.xml
+2024-02-19 20:18:02, Info                         [reagentc.exe]  Checking for downlevel WinRE installation.
+2024-02-19 20:18:02, Info                         [reagentc.exe] First round search
+2024-02-19 20:18:02, Info                         [reagentc.exe] Get ReAgent config
+2024-02-19 20:18:02, Info                         [reagentc.exe] GetReAgentConfig Config file path: C:\Windows\system32\Recovery\ReAgent.xml
+2024-02-19 20:18:02, Info                         [reagentc.exe] CheckRegKey test hook (SystemSetupInProgress) present and disabled
+2024-02-19 20:18:02, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-02-19 20:18:03, Info                         [reagentc.exe] WinRE is installed
+2024-02-19 20:18:03, Info                         [reagentc.exe] --Install on target OS step 2: detect and fix if there is any issue for winre settings
+2024-02-19 20:18:03, Info                         [reagentc.exe] DetectAndFixWinReIssues (WinRE)WinRE is already installed, setting BCD entry (winre location \\?\GLOBALROOT\device\harddisk0\partition4\Recovery\WindowsRE)
+2024-02-19 20:18:03, Info                         [reagentc.exe] DetectAndFixWinReIssues Current Recovery Sequence is already set as the BCD id of WinRE.
+2024-02-19 20:18:03, Info                         [reagentc.exe] Current WinRE is ready. No need to make any further changes
+2024-02-19 20:18:03, Info                         [reagentc.exe] Exit WinReInstall return value: 1, last error: 0x0
+2024-02-19 20:18:03, Info                         [reagentc.exe] Enter WinReSetConfig
+2024-02-19 20:18:03, Info                         [reagentc.exe] Parameters: configWinDir: NULL
+2024-02-19 20:18:03, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-02-19 20:18:03, Info                         [reagentc.exe] WinRE is installed
+2024-02-19 20:18:03, Info                         [reagentc.exe] Exit WinReSetConfig return value: 1, last error: 0x0
+2024-02-19 20:18:03, Info                         [reagentc.exe] Clear non critical error when enabling auto repair
+2024-02-19 20:18:03, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-19 20:18:03, Info                         [reagentc.exe] -----Exiting command line: "C:\Windows\System32\reagentc.exe"  /enable, Error: 0-----
+2024-02-19 20:18:03, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-19 20:18:03, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-19 20:18:03, Info                         [reagentc.exe] -----Executing command line: "C:\Windows\System32\reagentc.exe" /setreimage /path "C:\ProgramData\Dell\SARemediation\WinRE\recovery\windowsre" /index 1 /target "C:\Windows"-----
+2024-02-19 20:18:03, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-19 20:18:03, Info                         [reagentc.exe] Enter WinReSetConfig
+2024-02-19 20:18:03, Info                         [reagentc.exe] Parameters: configWinDir: C:\Windows
+2024-02-19 20:18:03, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-02-19 20:18:03, Info                         [reagentc.exe] WinRE is installed
+2024-02-19 20:18:03, Info                         [reagentc.exe] Exit WinReSetConfig return value: 0, last error: 0xb7
+2024-02-19 20:18:03, Error                        [reagentc.exe] WinReSetConfig failed: : 0xb7
+2024-02-19 20:18:03, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-19 20:18:03, Info                         [reagentc.exe] -----Exiting command line: "C:\Windows\System32\reagentc.exe" /setreimage /path "C:\ProgramData\Dell\SARemediation\WinRE\recovery\windowsre" /index 1 /target "C:\Windows", Error: 183-----
+2024-02-19 20:18:03, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-19 20:18:03, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-19 20:18:03, Info                         [reagentc.exe] -----Executing command line: "C:\Windows\System32\reagentc.exe" /setbootshelllink /configfile "C:\Recovery\OEM\bootmenu.xml" /target "C:\Windows"-----
+2024-02-19 20:18:03, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-19 20:18:03, Info                         [reagentc.exe] Enter WinReSetConfig
+2024-02-19 20:18:03, Info                         [reagentc.exe] Parameters: configWinDir: C:\Windows
+2024-02-19 20:18:03, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-02-19 20:18:03, Info                         [reagentc.exe] WinRE is installed
+2024-02-19 20:18:03, Info                         [reagentc.exe] Exit WinReSetConfig return value: 1, last error: 0x0
+2024-02-19 20:18:03, Info                         [reagentc.exe] Enter WinReSetCustomization
+2024-02-19 20:18:03, Info                         [reagentc.exe] Parameters: configWinDir: C:\Windows, pwszConfigFile: C:\Recovery\OEM\bootmenu.xml
+2024-02-19 20:18:03, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-02-19 20:18:03, Info                         [reagentc.exe] WinRE is installed
+2024-02-19 20:18:03, Info                         [reagentc.exe] Exit WinReSetCustomization return value: 1, last error: 0x0
+2024-02-19 20:18:03, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-19 20:18:03, Info                         [reagentc.exe] -----Exiting command line: "C:\Windows\System32\reagentc.exe" /setbootshelllink /configfile "C:\Recovery\OEM\bootmenu.xml" /target "C:\Windows", Error: 0-----
+2024-02-19 20:18:03, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-20 13:17:21, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-20 13:17:21, Info                         [reagentc.exe] -----Executing command line: "C:\Windows\System32\reagentc.exe"  /enable-----
+2024-02-20 13:17:21, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-20 13:17:21, Info                         [reagentc.exe] Enter WinRECheckGuid
+2024-02-20 13:17:21, Info                         [reagentc.exe] Parameter: TargetOsGuid: : NULL 
+2024-02-20 13:17:21, Info                         [reagentc.exe] Exit WinRECheckGuid return error code: 0x0
+2024-02-20 13:17:21, Info                         [reagentc.exe] Enter WinReInstall
+2024-02-20 13:17:21, Info                         [reagentc.exe] Parameter: ReInstallBecauseOfBitlocker: 0
+2024-02-20 13:17:21, Info                         [reagentc.exe] --Install on target OS step 1: collect info like partition list, loading reagent.xml, source winre.wim and partition
+2024-02-20 13:17:21, Info                         [reagentc.exe] Enumerate and log all fixed partitions:
+2024-02-20 13:17:21, Info                         [reagentc.exe] --Partition info--
+2024-02-20 13:17:21, Info                         [reagentc.exe] VolumeName: \\?\Volume{adf24af1-5ea0-43d7-a050-56a48c69f5aa}, PartitionName: \\?\GLOBALROOT\device\harddisk0\partition1
+2024-02-20 13:17:21, Info                         [reagentc.exe] Partition number: 1, offset: 1048576, free space: 4111360, total space: 100663296
+2024-02-20 13:17:21, Info                         [reagentc.exe] DiskNumber:0, DiskSignature:0, NTFS:0, Mbr:0, Active:0, Boot:0, BitlockerEnabled:0
+2024-02-20 13:17:21, Info                         [reagentc.exe] GPT partition GUID:: {C12A7328-F81F-11D2-BA4B-00A0C93EC93B} 
+2024-02-20 13:17:21, Info                         [reagentc.exe] DiskId: {8D676199-B565-423A-822A-2700AFE6650B} 
+2024-02-20 13:17:21, Info                         [reagentc.exe] --Partition info--
+2024-02-20 13:17:21, Info                         [reagentc.exe] VolumeName: \\?\Volume{09414a30-b102-4b8e-cd19-03c738b34c2a}, PartitionName: \\?\GLOBALROOT\device\harddisk0\partition5
+2024-02-20 13:17:21, Info                         [reagentc.exe] Partition number: 5, offset: 1023059951616, free space: 22654976, total space: 1138749440
+2024-02-20 13:17:21, Info                         [reagentc.exe] DiskNumber:0, DiskSignature:0, NTFS:1, Mbr:0, Active:0, Boot:0, BitlockerEnabled:0
+2024-02-20 13:17:21, Info                         [reagentc.exe] GPT partition GUID:: {DE94BBA4-06D1-4D40-A16A-BFD50179D6AC} 
+2024-02-20 13:17:21, Info                         [reagentc.exe] DiskId: {8D676199-B565-423A-822A-2700AFE6650B} 
+2024-02-20 13:17:21, Info                         [reagentc.exe] --Partition info--
+2024-02-20 13:17:21, Info                         [reagentc.exe] VolumeName: \\?\Volume{e61184a0-5287-479d-85f0-349e5f8d2de6}, PartitionName: \\?\GLOBALROOT\device\harddisk0\partition4
+2024-02-20 13:17:21, Info                         [reagentc.exe] Partition number: 4, offset: 1022512594944, free space: 93577216, total space: 546304000
+2024-02-20 13:17:21, Info                         [reagentc.exe] DiskNumber:0, DiskSignature:0, NTFS:1, Mbr:0, Active:0, Boot:0, BitlockerEnabled:0
+2024-02-20 13:17:21, Info                         [reagentc.exe] GPT partition GUID:: {DE94BBA4-06D1-4D40-A16A-BFD50179D6AC} 
+2024-02-20 13:17:21, Info                         [reagentc.exe] DiskId: {8D676199-B565-423A-822A-2700AFE6650B} 
+2024-02-20 13:17:21, Info                         [reagentc.exe] --Partition info--
+2024-02-20 13:17:21, Info                         [reagentc.exe] VolumeName: \\?\Volume{e6d298c3-2087-42c9-8c77-fa167fe96314}, PartitionName: \\?\GLOBALROOT\device\harddisk0\partition3
+2024-02-20 13:17:21, Info                         [reagentc.exe] Partition number: 3, offset: 122683392, free space: 399003447296, total space: 1022389907456
+2024-02-20 13:17:21, Info                         [reagentc.exe] DiskNumber:0, DiskSignature:0, NTFS:1, Mbr:0, Active:0, Boot:1, BitlockerEnabled:0
+2024-02-20 13:17:21, Info                         [reagentc.exe] GPT partition GUID:: {EBD0A0A2-B9E5-4433-87C0-68B6B72699C7} 
+2024-02-20 13:17:21, Info                         [reagentc.exe] DiskId: {8D676199-B565-423A-822A-2700AFE6650B} 
+2024-02-20 13:17:21, Info                         [reagentc.exe] Get downlevel ReAgent config
+2024-02-20 13:17:21, Info                         [reagentc.exe]  Downlevel config file path: \Recovery\ReAgentOld.xml
+2024-02-20 13:17:21, Info                         [reagentc.exe]  Checking for downlevel WinRE installation.
+2024-02-20 13:17:21, Info                         [reagentc.exe] First round search
+2024-02-20 13:17:21, Info                         [reagentc.exe] Get ReAgent config
+2024-02-20 13:17:21, Info                         [reagentc.exe] GetReAgentConfig Config file path: C:\Windows\system32\Recovery\ReAgent.xml
+2024-02-20 13:17:21, Info                         [reagentc.exe] CheckRegKey test hook (SystemSetupInProgress) present and disabled
+2024-02-20 13:17:21, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-02-20 13:17:21, Info                         [reagentc.exe] WinRE is installed
+2024-02-20 13:17:21, Info                         [reagentc.exe] --Install on target OS step 2: detect and fix if there is any issue for winre settings
+2024-02-20 13:17:21, Info                         [reagentc.exe] DetectAndFixWinReIssues (WinRE)WinRE is already installed, setting BCD entry (winre location \\?\GLOBALROOT\device\harddisk0\partition4\Recovery\WindowsRE)
+2024-02-20 13:17:21, Info                         [reagentc.exe] DetectAndFixWinReIssues Current Recovery Sequence is already set as the BCD id of WinRE.
+2024-02-20 13:17:21, Info                         [reagentc.exe] Current WinRE is ready. No need to make any further changes
+2024-02-20 13:17:21, Info                         [reagentc.exe] Exit WinReInstall return value: 1, last error: 0x0
+2024-02-20 13:17:21, Info                         [reagentc.exe] Enter WinReSetConfig
+2024-02-20 13:17:21, Info                         [reagentc.exe] Parameters: configWinDir: NULL
+2024-02-20 13:17:21, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-02-20 13:17:21, Info                         [reagentc.exe] WinRE is installed
+2024-02-20 13:17:21, Info                         [reagentc.exe] Exit WinReSetConfig return value: 1, last error: 0x0
+2024-02-20 13:17:21, Info                         [reagentc.exe] Clear non critical error when enabling auto repair
+2024-02-20 13:17:21, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-20 13:17:21, Info                         [reagentc.exe] -----Exiting command line: "C:\Windows\System32\reagentc.exe"  /enable, Error: 0-----
+2024-02-20 13:17:21, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-20 13:17:21, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-20 13:17:21, Info                         [reagentc.exe] -----Executing command line: "C:\Windows\System32\reagentc.exe" /setreimage /path "C:\ProgramData\Dell\SARemediation\WinRE\recovery\windowsre" /index 1 /target "C:\Windows"-----
+2024-02-20 13:17:21, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-20 13:17:21, Info                         [reagentc.exe] Enter WinReSetConfig
+2024-02-20 13:17:21, Info                         [reagentc.exe] Parameters: configWinDir: C:\Windows
+2024-02-20 13:17:21, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-02-20 13:17:21, Info                         [reagentc.exe] WinRE is installed
+2024-02-20 13:17:21, Info                         [reagentc.exe] Exit WinReSetConfig return value: 0, last error: 0xb7
+2024-02-20 13:17:21, Error                        [reagentc.exe] WinReSetConfig failed: : 0xb7
+2024-02-20 13:17:21, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-20 13:17:21, Info                         [reagentc.exe] -----Exiting command line: "C:\Windows\System32\reagentc.exe" /setreimage /path "C:\ProgramData\Dell\SARemediation\WinRE\recovery\windowsre" /index 1 /target "C:\Windows", Error: 183-----
+2024-02-20 13:17:21, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-20 13:17:21, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-20 13:17:21, Info                         [reagentc.exe] -----Executing command line: "C:\Windows\System32\reagentc.exe" /setbootshelllink /configfile "C:\Recovery\OEM\bootmenu.xml" /target "C:\Windows"-----
+2024-02-20 13:17:21, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-20 13:17:21, Info                         [reagentc.exe] Enter WinReSetConfig
+2024-02-20 13:17:21, Info                         [reagentc.exe] Parameters: configWinDir: C:\Windows
+2024-02-20 13:17:21, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-02-20 13:17:22, Info                         [reagentc.exe] WinRE is installed
+2024-02-20 13:17:22, Info                         [reagentc.exe] Exit WinReSetConfig return value: 1, last error: 0x0
+2024-02-20 13:17:22, Info                         [reagentc.exe] Enter WinReSetCustomization
+2024-02-20 13:17:22, Info                         [reagentc.exe] Parameters: configWinDir: C:\Windows, pwszConfigFile: C:\Recovery\OEM\bootmenu.xml
+2024-02-20 13:17:22, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-02-20 13:17:22, Info                         [reagentc.exe] WinRE is installed
+2024-02-20 13:17:22, Info                         [reagentc.exe] Exit WinReSetCustomization return value: 1, last error: 0x0
+2024-02-20 13:17:22, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-20 13:17:22, Info                         [reagentc.exe] -----Exiting command line: "C:\Windows\System32\reagentc.exe" /setbootshelllink /configfile "C:\Recovery\OEM\bootmenu.xml" /target "C:\Windows", Error: 0-----
+2024-02-20 13:17:22, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-26 07:52:42, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-26 07:52:42, Info                         [reagentc.exe] -----Executing command line: "C:\Windows\System32\reagentc.exe"  /enable-----
+2024-02-26 07:52:42, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-26 07:52:42, Info                         [reagentc.exe] Enter WinRECheckGuid
+2024-02-26 07:52:42, Info                         [reagentc.exe] Parameter: TargetOsGuid: : NULL 
+2024-02-26 07:52:42, Info                         [reagentc.exe] Exit WinRECheckGuid return error code: 0x0
+2024-02-26 07:52:42, Info                         [reagentc.exe] Enter WinReInstall
+2024-02-26 07:52:42, Info                         [reagentc.exe] Parameter: ReInstallBecauseOfBitlocker: 0
+2024-02-26 07:52:42, Info                         [reagentc.exe] --Install on target OS step 1: collect info like partition list, loading reagent.xml, source winre.wim and partition
+2024-02-26 07:52:42, Info                         [reagentc.exe] Enumerate and log all fixed partitions:
+2024-02-26 07:52:42, Info                         [reagentc.exe] --Partition info--
+2024-02-26 07:52:42, Info                         [reagentc.exe] VolumeName: \\?\Volume{adf24af1-5ea0-43d7-a050-56a48c69f5aa}, PartitionName: \\?\GLOBALROOT\device\harddisk0\partition1
+2024-02-26 07:52:42, Info                         [reagentc.exe] Partition number: 1, offset: 1048576, free space: 4111360, total space: 100663296
+2024-02-26 07:52:42, Info                         [reagentc.exe] DiskNumber:0, DiskSignature:0, NTFS:0, Mbr:0, Active:0, Boot:0, BitlockerEnabled:0
+2024-02-26 07:52:42, Info                         [reagentc.exe] GPT partition GUID:: {C12A7328-F81F-11D2-BA4B-00A0C93EC93B} 
+2024-02-26 07:52:42, Info                         [reagentc.exe] DiskId: {8D676199-B565-423A-822A-2700AFE6650B} 
+2024-02-26 07:52:42, Info                         [reagentc.exe] --Partition info--
+2024-02-26 07:52:42, Info                         [reagentc.exe] VolumeName: \\?\Volume{09414a30-b102-4b8e-cd19-03c738b34c2a}, PartitionName: \\?\GLOBALROOT\device\harddisk0\partition5
+2024-02-26 07:52:42, Info                         [reagentc.exe] Partition number: 5, offset: 1023059951616, free space: 22654976, total space: 1138749440
+2024-02-26 07:52:42, Info                         [reagentc.exe] DiskNumber:0, DiskSignature:0, NTFS:1, Mbr:0, Active:0, Boot:0, BitlockerEnabled:0
+2024-02-26 07:52:42, Info                         [reagentc.exe] GPT partition GUID:: {DE94BBA4-06D1-4D40-A16A-BFD50179D6AC} 
+2024-02-26 07:52:42, Info                         [reagentc.exe] DiskId: {8D676199-B565-423A-822A-2700AFE6650B} 
+2024-02-26 07:52:42, Info                         [reagentc.exe] --Partition info--
+2024-02-26 07:52:42, Info                         [reagentc.exe] VolumeName: \\?\Volume{e61184a0-5287-479d-85f0-349e5f8d2de6}, PartitionName: \\?\GLOBALROOT\device\harddisk0\partition4
+2024-02-26 07:52:42, Info                         [reagentc.exe] Partition number: 4, offset: 1022512594944, free space: 93577216, total space: 546304000
+2024-02-26 07:52:42, Info                         [reagentc.exe] DiskNumber:0, DiskSignature:0, NTFS:1, Mbr:0, Active:0, Boot:0, BitlockerEnabled:0
+2024-02-26 07:52:42, Info                         [reagentc.exe] GPT partition GUID:: {DE94BBA4-06D1-4D40-A16A-BFD50179D6AC} 
+2024-02-26 07:52:42, Info                         [reagentc.exe] DiskId: {8D676199-B565-423A-822A-2700AFE6650B} 
+2024-02-26 07:52:42, Info                         [reagentc.exe] --Partition info--
+2024-02-26 07:52:42, Info                         [reagentc.exe] VolumeName: \\?\Volume{e6d298c3-2087-42c9-8c77-fa167fe96314}, PartitionName: \\?\GLOBALROOT\device\harddisk0\partition3
+2024-02-26 07:52:42, Info                         [reagentc.exe] Partition number: 3, offset: 122683392, free space: 398113112064, total space: 1022389907456
+2024-02-26 07:52:42, Info                         [reagentc.exe] DiskNumber:0, DiskSignature:0, NTFS:1, Mbr:0, Active:0, Boot:1, BitlockerEnabled:0
+2024-02-26 07:52:42, Info                         [reagentc.exe] GPT partition GUID:: {EBD0A0A2-B9E5-4433-87C0-68B6B72699C7} 
+2024-02-26 07:52:42, Info                         [reagentc.exe] DiskId: {8D676199-B565-423A-822A-2700AFE6650B} 
+2024-02-26 07:52:42, Info                         [reagentc.exe] Get downlevel ReAgent config
+2024-02-26 07:52:42, Info                         [reagentc.exe]  Downlevel config file path: \Recovery\ReAgentOld.xml
+2024-02-26 07:52:42, Info                         [reagentc.exe]  Checking for downlevel WinRE installation.
+2024-02-26 07:52:42, Info                         [reagentc.exe] First round search
+2024-02-26 07:52:42, Info                         [reagentc.exe] Get ReAgent config
+2024-02-26 07:52:42, Info                         [reagentc.exe] GetReAgentConfig Config file path: C:\Windows\system32\Recovery\ReAgent.xml
+2024-02-26 07:52:42, Info                         [reagentc.exe] CheckRegKey test hook (SystemSetupInProgress) present and disabled
+2024-02-26 07:52:42, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-02-26 07:52:42, Info                         [reagentc.exe] WinRE is installed
+2024-02-26 07:52:42, Info                         [reagentc.exe] --Install on target OS step 2: detect and fix if there is any issue for winre settings
+2024-02-26 07:52:42, Info                         [reagentc.exe] DetectAndFixWinReIssues (WinRE)WinRE is already installed, setting BCD entry (winre location \\?\GLOBALROOT\device\harddisk0\partition4\Recovery\WindowsRE)
+2024-02-26 07:52:42, Info                         [reagentc.exe] DetectAndFixWinReIssues Current Recovery Sequence is already set as the BCD id of WinRE.
+2024-02-26 07:52:42, Info                         [reagentc.exe] Current WinRE is ready. No need to make any further changes
+2024-02-26 07:52:42, Info                         [reagentc.exe] Exit WinReInstall return value: 1, last error: 0x0
+2024-02-26 07:52:42, Info                         [reagentc.exe] Enter WinReSetConfig
+2024-02-26 07:52:42, Info                         [reagentc.exe] Parameters: configWinDir: NULL
+2024-02-26 07:52:42, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-02-26 07:52:42, Info                         [reagentc.exe] WinRE is installed
+2024-02-26 07:52:42, Info                         [reagentc.exe] Exit WinReSetConfig return value: 1, last error: 0x0
+2024-02-26 07:52:42, Info                         [reagentc.exe] Clear non critical error when enabling auto repair
+2024-02-26 07:52:42, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-26 07:52:42, Info                         [reagentc.exe] -----Exiting command line: "C:\Windows\System32\reagentc.exe"  /enable, Error: 0-----
+2024-02-26 07:52:42, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-26 07:52:43, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-26 07:52:43, Info                         [reagentc.exe] -----Executing command line: "C:\Windows\System32\reagentc.exe" /setreimage /path "C:\ProgramData\Dell\SARemediation\WinRE\recovery\windowsre" /index 1 /target "C:\Windows"-----
+2024-02-26 07:52:43, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-26 07:52:43, Info                         [reagentc.exe] Enter WinReSetConfig
+2024-02-26 07:52:43, Info                         [reagentc.exe] Parameters: configWinDir: C:\Windows
+2024-02-26 07:52:43, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-02-26 07:52:43, Info                         [reagentc.exe] WinRE is installed
+2024-02-26 07:52:43, Info                         [reagentc.exe] Exit WinReSetConfig return value: 0, last error: 0xb7
+2024-02-26 07:52:43, Error                        [reagentc.exe] WinReSetConfig failed: : 0xb7
+2024-02-26 07:52:43, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-26 07:52:43, Info                         [reagentc.exe] -----Exiting command line: "C:\Windows\System32\reagentc.exe" /setreimage /path "C:\ProgramData\Dell\SARemediation\WinRE\recovery\windowsre" /index 1 /target "C:\Windows", Error: 183-----
+2024-02-26 07:52:43, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-26 07:52:43, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-26 07:52:43, Info                         [reagentc.exe] -----Executing command line: "C:\Windows\System32\reagentc.exe" /setbootshelllink /configfile "C:\Recovery\OEM\bootmenu.xml" /target "C:\Windows"-----
+2024-02-26 07:52:43, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-26 07:52:43, Info                         [reagentc.exe] Enter WinReSetConfig
+2024-02-26 07:52:43, Info                         [reagentc.exe] Parameters: configWinDir: C:\Windows
+2024-02-26 07:52:43, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-02-26 07:52:43, Info                         [reagentc.exe] WinRE is installed
+2024-02-26 07:52:43, Info                         [reagentc.exe] Exit WinReSetConfig return value: 1, last error: 0x0
+2024-02-26 07:52:43, Info                         [reagentc.exe] Enter WinReSetCustomization
+2024-02-26 07:52:43, Info                         [reagentc.exe] Parameters: configWinDir: C:\Windows, pwszConfigFile: C:\Recovery\OEM\bootmenu.xml
+2024-02-26 07:52:43, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-02-26 07:52:43, Info                         [reagentc.exe] WinRE is installed
+2024-02-26 07:52:43, Info                         [reagentc.exe] Exit WinReSetCustomization return value: 1, last error: 0x0
+2024-02-26 07:52:43, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-26 07:52:43, Info                         [reagentc.exe] -----Exiting command line: "C:\Windows\System32\reagentc.exe" /setbootshelllink /configfile "C:\Recovery\OEM\bootmenu.xml" /target "C:\Windows", Error: 0-----
+2024-02-26 07:52:43, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-27 08:40:18, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-27 08:40:18, Info                         [reagentc.exe] -----Executing command line: "C:\Windows\System32\reagentc.exe"  /enable-----
+2024-02-27 08:40:18, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-27 08:40:18, Info                         [reagentc.exe] Enter WinRECheckGuid
+2024-02-27 08:40:18, Info                         [reagentc.exe] Parameter: TargetOsGuid: : NULL 
+2024-02-27 08:40:19, Info                         [reagentc.exe] Exit WinRECheckGuid return error code: 0x0
+2024-02-27 08:40:19, Info                         [reagentc.exe] Enter WinReInstall
+2024-02-27 08:40:19, Info                         [reagentc.exe] Parameter: ReInstallBecauseOfBitlocker: 0
+2024-02-27 08:40:19, Info                         [reagentc.exe] --Install on target OS step 1: collect info like partition list, loading reagent.xml, source winre.wim and partition
+2024-02-27 08:40:19, Info                         [reagentc.exe] Enumerate and log all fixed partitions:
+2024-02-27 08:40:19, Info                         [reagentc.exe] --Partition info--
+2024-02-27 08:40:19, Info                         [reagentc.exe] VolumeName: \\?\Volume{adf24af1-5ea0-43d7-a050-56a48c69f5aa}, PartitionName: \\?\GLOBALROOT\device\harddisk0\partition1
+2024-02-27 08:40:19, Info                         [reagentc.exe] Partition number: 1, offset: 1048576, free space: 4111360, total space: 100663296
+2024-02-27 08:40:19, Info                         [reagentc.exe] DiskNumber:0, DiskSignature:0, NTFS:0, Mbr:0, Active:0, Boot:0, BitlockerEnabled:0
+2024-02-27 08:40:19, Info                         [reagentc.exe] GPT partition GUID:: {C12A7328-F81F-11D2-BA4B-00A0C93EC93B} 
+2024-02-27 08:40:19, Info                         [reagentc.exe] DiskId: {8D676199-B565-423A-822A-2700AFE6650B} 
+2024-02-27 08:40:19, Info                         [reagentc.exe] --Partition info--
+2024-02-27 08:40:19, Info                         [reagentc.exe] VolumeName: \\?\Volume{09414a30-b102-4b8e-cd19-03c738b34c2a}, PartitionName: \\?\GLOBALROOT\device\harddisk0\partition5
+2024-02-27 08:40:19, Info                         [reagentc.exe] Partition number: 5, offset: 1023059951616, free space: 22654976, total space: 1138749440
+2024-02-27 08:40:19, Info                         [reagentc.exe] DiskNumber:0, DiskSignature:0, NTFS:1, Mbr:0, Active:0, Boot:0, BitlockerEnabled:0
+2024-02-27 08:40:19, Info                         [reagentc.exe] GPT partition GUID:: {DE94BBA4-06D1-4D40-A16A-BFD50179D6AC} 
+2024-02-27 08:40:19, Info                         [reagentc.exe] DiskId: {8D676199-B565-423A-822A-2700AFE6650B} 
+2024-02-27 08:40:19, Info                         [reagentc.exe] --Partition info--
+2024-02-27 08:40:19, Info                         [reagentc.exe] VolumeName: \\?\Volume{e61184a0-5287-479d-85f0-349e5f8d2de6}, PartitionName: \\?\GLOBALROOT\device\harddisk0\partition4
+2024-02-27 08:40:19, Info                         [reagentc.exe] Partition number: 4, offset: 1022512594944, free space: 93577216, total space: 546304000
+2024-02-27 08:40:19, Info                         [reagentc.exe] DiskNumber:0, DiskSignature:0, NTFS:1, Mbr:0, Active:0, Boot:0, BitlockerEnabled:0
+2024-02-27 08:40:19, Info                         [reagentc.exe] GPT partition GUID:: {DE94BBA4-06D1-4D40-A16A-BFD50179D6AC} 
+2024-02-27 08:40:19, Info                         [reagentc.exe] DiskId: {8D676199-B565-423A-822A-2700AFE6650B} 
+2024-02-27 08:40:19, Info                         [reagentc.exe] --Partition info--
+2024-02-27 08:40:19, Info                         [reagentc.exe] VolumeName: \\?\Volume{e6d298c3-2087-42c9-8c77-fa167fe96314}, PartitionName: \\?\GLOBALROOT\device\harddisk0\partition3
+2024-02-27 08:40:19, Info                         [reagentc.exe] Partition number: 3, offset: 122683392, free space: 399600373760, total space: 1022389907456
+2024-02-27 08:40:19, Info                         [reagentc.exe] DiskNumber:0, DiskSignature:0, NTFS:1, Mbr:0, Active:0, Boot:1, BitlockerEnabled:0
+2024-02-27 08:40:19, Info                         [reagentc.exe] GPT partition GUID:: {EBD0A0A2-B9E5-4433-87C0-68B6B72699C7} 
+2024-02-27 08:40:19, Info                         [reagentc.exe] DiskId: {8D676199-B565-423A-822A-2700AFE6650B} 
+2024-02-27 08:40:19, Info                         [reagentc.exe] Get downlevel ReAgent config
+2024-02-27 08:40:19, Info                         [reagentc.exe]  Downlevel config file path: \Recovery\ReAgentOld.xml
+2024-02-27 08:40:19, Info                         [reagentc.exe]  Checking for downlevel WinRE installation.
+2024-02-27 08:40:19, Info                         [reagentc.exe] First round search
+2024-02-27 08:40:19, Info                         [reagentc.exe] Get ReAgent config
+2024-02-27 08:40:19, Info                         [reagentc.exe] GetReAgentConfig Config file path: C:\Windows\system32\Recovery\ReAgent.xml
+2024-02-27 08:40:19, Info                         [reagentc.exe] CheckRegKey test hook (SystemSetupInProgress) present and disabled
+2024-02-27 08:40:19, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-02-27 08:40:19, Info                         [reagentc.exe] WinRE is installed
+2024-02-27 08:40:19, Info                         [reagentc.exe] --Install on target OS step 2: detect and fix if there is any issue for winre settings
+2024-02-27 08:40:19, Info                         [reagentc.exe] DetectAndFixWinReIssues (WinRE)WinRE is already installed, setting BCD entry (winre location \\?\GLOBALROOT\device\harddisk0\partition4\Recovery\WindowsRE)
+2024-02-27 08:40:19, Info                         [reagentc.exe] DetectAndFixWinReIssues Current Recovery Sequence is already set as the BCD id of WinRE.
+2024-02-27 08:40:19, Info                         [reagentc.exe] Current WinRE is ready. No need to make any further changes
+2024-02-27 08:40:19, Info                         [reagentc.exe] Exit WinReInstall return value: 1, last error: 0x0
+2024-02-27 08:40:19, Info                         [reagentc.exe] Enter WinReSetConfig
+2024-02-27 08:40:19, Info                         [reagentc.exe] Parameters: configWinDir: NULL
+2024-02-27 08:40:19, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-02-27 08:40:19, Info                         [reagentc.exe] WinRE is installed
+2024-02-27 08:40:19, Info                         [reagentc.exe] Exit WinReSetConfig return value: 1, last error: 0x0
+2024-02-27 08:40:19, Info                         [reagentc.exe] Clear non critical error when enabling auto repair
+2024-02-27 08:40:19, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-27 08:40:19, Info                         [reagentc.exe] -----Exiting command line: "C:\Windows\System32\reagentc.exe"  /enable, Error: 0-----
+2024-02-27 08:40:19, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-27 08:40:19, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-27 08:40:19, Info                         [reagentc.exe] -----Executing command line: "C:\Windows\System32\reagentc.exe" /setreimage /path "C:\ProgramData\Dell\SARemediation\WinRE\recovery\windowsre" /index 1 /target "C:\Windows"-----
+2024-02-27 08:40:19, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-27 08:40:19, Info                         [reagentc.exe] Enter WinReSetConfig
+2024-02-27 08:40:19, Info                         [reagentc.exe] Parameters: configWinDir: C:\Windows
+2024-02-27 08:40:19, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-02-27 08:40:19, Info                         [reagentc.exe] WinRE is installed
+2024-02-27 08:40:19, Info                         [reagentc.exe] Exit WinReSetConfig return value: 0, last error: 0xb7
+2024-02-27 08:40:19, Error                        [reagentc.exe] WinReSetConfig failed: : 0xb7
+2024-02-27 08:40:19, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-27 08:40:19, Info                         [reagentc.exe] -----Exiting command line: "C:\Windows\System32\reagentc.exe" /setreimage /path "C:\ProgramData\Dell\SARemediation\WinRE\recovery\windowsre" /index 1 /target "C:\Windows", Error: 183-----
+2024-02-27 08:40:19, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-27 08:40:19, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-27 08:40:19, Info                         [reagentc.exe] -----Executing command line: "C:\Windows\System32\reagentc.exe" /setbootshelllink /configfile "C:\Recovery\OEM\bootmenu.xml" /target "C:\Windows"-----
+2024-02-27 08:40:19, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-27 08:40:19, Info                         [reagentc.exe] Enter WinReSetConfig
+2024-02-27 08:40:19, Info                         [reagentc.exe] Parameters: configWinDir: C:\Windows
+2024-02-27 08:40:19, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-02-27 08:40:19, Info                         [reagentc.exe] WinRE is installed
+2024-02-27 08:40:19, Info                         [reagentc.exe] Exit WinReSetConfig return value: 1, last error: 0x0
+2024-02-27 08:40:19, Info                         [reagentc.exe] Enter WinReSetCustomization
+2024-02-27 08:40:19, Info                         [reagentc.exe] Parameters: configWinDir: C:\Windows, pwszConfigFile: C:\Recovery\OEM\bootmenu.xml
+2024-02-27 08:40:19, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-02-27 08:40:19, Info                         [reagentc.exe] WinRE is installed
+2024-02-27 08:40:19, Info                         [reagentc.exe] Exit WinReSetCustomization return value: 1, last error: 0x0
+2024-02-27 08:40:19, Info                         [reagentc.exe] ------------------------------------------------------
+2024-02-27 08:40:19, Info                         [reagentc.exe] -----Exiting command line: "C:\Windows\System32\reagentc.exe" /setbootshelllink /configfile "C:\Recovery\OEM\bootmenu.xml" /target "C:\Windows", Error: 0-----
+2024-02-27 08:40:19, Info                         [reagentc.exe] ------------------------------------------------------
+2024-03-04 08:32:17, Info                         [reagentc.exe] ------------------------------------------------------
+2024-03-04 08:32:17, Info                         [reagentc.exe] -----Executing command line: "C:\Windows\System32\reagentc.exe"  /enable-----
+2024-03-04 08:32:17, Info                         [reagentc.exe] ------------------------------------------------------
+2024-03-04 08:32:17, Info                         [reagentc.exe] Enter WinRECheckGuid
+2024-03-04 08:32:17, Info                         [reagentc.exe] Parameter: TargetOsGuid: : NULL 
+2024-03-04 08:32:17, Info                         [reagentc.exe] Exit WinRECheckGuid return error code: 0x0
+2024-03-04 08:32:17, Info                         [reagentc.exe] Enter WinReInstall
+2024-03-04 08:32:17, Info                         [reagentc.exe] Parameter: ReInstallBecauseOfBitlocker: 0
+2024-03-04 08:32:17, Info                         [reagentc.exe] --Install on target OS step 1: collect info like partition list, loading reagent.xml, source winre.wim and partition
+2024-03-04 08:32:17, Info                         [reagentc.exe] Enumerate and log all fixed partitions:
+2024-03-04 08:32:17, Info                         [reagentc.exe] --Partition info--
+2024-03-04 08:32:17, Info                         [reagentc.exe] VolumeName: \\?\Volume{adf24af1-5ea0-43d7-a050-56a48c69f5aa}, PartitionName: \\?\GLOBALROOT\device\harddisk0\partition1
+2024-03-04 08:32:17, Info                         [reagentc.exe] Partition number: 1, offset: 1048576, free space: 4111360, total space: 100663296
+2024-03-04 08:32:17, Info                         [reagentc.exe] DiskNumber:0, DiskSignature:0, NTFS:0, Mbr:0, Active:0, Boot:0, BitlockerEnabled:0
+2024-03-04 08:32:17, Info                         [reagentc.exe] GPT partition GUID:: {C12A7328-F81F-11D2-BA4B-00A0C93EC93B} 
+2024-03-04 08:32:17, Info                         [reagentc.exe] DiskId: {8D676199-B565-423A-822A-2700AFE6650B} 
+2024-03-04 08:32:17, Info                         [reagentc.exe] --Partition info--
+2024-03-04 08:32:17, Info                         [reagentc.exe] VolumeName: \\?\Volume{09414a30-b102-4b8e-cd19-03c738b34c2a}, PartitionName: \\?\GLOBALROOT\device\harddisk0\partition5
+2024-03-04 08:32:17, Info                         [reagentc.exe] Partition number: 5, offset: 1023059951616, free space: 22654976, total space: 1138749440
+2024-03-04 08:32:17, Info                         [reagentc.exe] DiskNumber:0, DiskSignature:0, NTFS:1, Mbr:0, Active:0, Boot:0, BitlockerEnabled:0
+2024-03-04 08:32:17, Info                         [reagentc.exe] GPT partition GUID:: {DE94BBA4-06D1-4D40-A16A-BFD50179D6AC} 
+2024-03-04 08:32:17, Info                         [reagentc.exe] DiskId: {8D676199-B565-423A-822A-2700AFE6650B} 
+2024-03-04 08:32:17, Info                         [reagentc.exe] --Partition info--
+2024-03-04 08:32:17, Info                         [reagentc.exe] VolumeName: \\?\Volume{e61184a0-5287-479d-85f0-349e5f8d2de6}, PartitionName: \\?\GLOBALROOT\device\harddisk0\partition4
+2024-03-04 08:32:17, Info                         [reagentc.exe] Partition number: 4, offset: 1022512594944, free space: 93577216, total space: 546304000
+2024-03-04 08:32:17, Info                         [reagentc.exe] DiskNumber:0, DiskSignature:0, NTFS:1, Mbr:0, Active:0, Boot:0, BitlockerEnabled:0
+2024-03-04 08:32:17, Info                         [reagentc.exe] GPT partition GUID:: {DE94BBA4-06D1-4D40-A16A-BFD50179D6AC} 
+2024-03-04 08:32:17, Info                         [reagentc.exe] DiskId: {8D676199-B565-423A-822A-2700AFE6650B} 
+2024-03-04 08:32:17, Info                         [reagentc.exe] --Partition info--
+2024-03-04 08:32:17, Info                         [reagentc.exe] VolumeName: \\?\Volume{e6d298c3-2087-42c9-8c77-fa167fe96314}, PartitionName: \\?\GLOBALROOT\device\harddisk0\partition3
+2024-03-04 08:32:17, Info                         [reagentc.exe] Partition number: 3, offset: 122683392, free space: 395939549184, total space: 1022389907456
+2024-03-04 08:32:17, Info                         [reagentc.exe] DiskNumber:0, DiskSignature:0, NTFS:1, Mbr:0, Active:0, Boot:1, BitlockerEnabled:0
+2024-03-04 08:32:17, Info                         [reagentc.exe] GPT partition GUID:: {EBD0A0A2-B9E5-4433-87C0-68B6B72699C7} 
+2024-03-04 08:32:17, Info                         [reagentc.exe] DiskId: {8D676199-B565-423A-822A-2700AFE6650B} 
+2024-03-04 08:32:17, Info                         [reagentc.exe] Get downlevel ReAgent config
+2024-03-04 08:32:17, Info                         [reagentc.exe]  Downlevel config file path: \Recovery\ReAgentOld.xml
+2024-03-04 08:32:17, Info                         [reagentc.exe]  Checking for downlevel WinRE installation.
+2024-03-04 08:32:17, Info                         [reagentc.exe] First round search
+2024-03-04 08:32:17, Info                         [reagentc.exe] Get ReAgent config
+2024-03-04 08:32:17, Info                         [reagentc.exe] GetReAgentConfig Config file path: C:\Windows\system32\Recovery\ReAgent.xml
+2024-03-04 08:32:17, Info                         [reagentc.exe] CheckRegKey test hook (SystemSetupInProgress) present and disabled
+2024-03-04 08:32:17, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-03-04 08:32:17, Info                         [reagentc.exe] WinRE is installed
+2024-03-04 08:32:17, Info                         [reagentc.exe] --Install on target OS step 2: detect and fix if there is any issue for winre settings
+2024-03-04 08:32:17, Info                         [reagentc.exe] DetectAndFixWinReIssues (WinRE)WinRE is already installed, setting BCD entry (winre location \\?\GLOBALROOT\device\harddisk0\partition4\Recovery\WindowsRE)
+2024-03-04 08:32:17, Info                         [reagentc.exe] DetectAndFixWinReIssues Current Recovery Sequence is already set as the BCD id of WinRE.
+2024-03-04 08:32:17, Info                         [reagentc.exe] Current WinRE is ready. No need to make any further changes
+2024-03-04 08:32:17, Info                         [reagentc.exe] Exit WinReInstall return value: 1, last error: 0x0
+2024-03-04 08:32:17, Info                         [reagentc.exe] Enter WinReSetConfig
+2024-03-04 08:32:17, Info                         [reagentc.exe] Parameters: configWinDir: NULL
+2024-03-04 08:32:17, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-03-04 08:32:17, Info                         [reagentc.exe] WinRE is installed
+2024-03-04 08:32:17, Info                         [reagentc.exe] Exit WinReSetConfig return value: 1, last error: 0x0
+2024-03-04 08:32:17, Info                         [reagentc.exe] Clear non critical error when enabling auto repair
+2024-03-04 08:32:17, Info                         [reagentc.exe] ------------------------------------------------------
+2024-03-04 08:32:17, Info                         [reagentc.exe] -----Exiting command line: "C:\Windows\System32\reagentc.exe"  /enable, Error: 0-----
+2024-03-04 08:32:17, Info                         [reagentc.exe] ------------------------------------------------------
+2024-03-04 08:32:17, Info                         [reagentc.exe] ------------------------------------------------------
+2024-03-04 08:32:17, Info                         [reagentc.exe] -----Executing command line: "C:\Windows\System32\reagentc.exe" /setreimage /path "C:\ProgramData\Dell\SARemediation\WinRE\recovery\windowsre" /index 1 /target "C:\Windows"-----
+2024-03-04 08:32:17, Info                         [reagentc.exe] ------------------------------------------------------
+2024-03-04 08:32:17, Info                         [reagentc.exe] Enter WinReSetConfig
+2024-03-04 08:32:17, Info                         [reagentc.exe] Parameters: configWinDir: C:\Windows
+2024-03-04 08:32:17, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-03-04 08:32:17, Info                         [reagentc.exe] WinRE is installed
+2024-03-04 08:32:17, Info                         [reagentc.exe] Exit WinReSetConfig return value: 0, last error: 0xb7
+2024-03-04 08:32:17, Error                        [reagentc.exe] WinReSetConfig failed: : 0xb7
+2024-03-04 08:32:17, Info                         [reagentc.exe] ------------------------------------------------------
+2024-03-04 08:32:17, Info                         [reagentc.exe] -----Exiting command line: "C:\Windows\System32\reagentc.exe" /setreimage /path "C:\ProgramData\Dell\SARemediation\WinRE\recovery\windowsre" /index 1 /target "C:\Windows", Error: 183-----
+2024-03-04 08:32:17, Info                         [reagentc.exe] ------------------------------------------------------
+2024-03-04 08:32:17, Info                         [reagentc.exe] ------------------------------------------------------
+2024-03-04 08:32:17, Info                         [reagentc.exe] -----Executing command line: "C:\Windows\System32\reagentc.exe" /setbootshelllink /configfile "C:\Recovery\OEM\bootmenu.xml" /target "C:\Windows"-----
+2024-03-04 08:32:17, Info                         [reagentc.exe] ------------------------------------------------------
+2024-03-04 08:32:17, Info                         [reagentc.exe] Enter WinReSetConfig
+2024-03-04 08:32:17, Info                         [reagentc.exe] Parameters: configWinDir: C:\Windows
+2024-03-04 08:32:17, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-03-04 08:32:17, Info                         [reagentc.exe] WinRE is installed
+2024-03-04 08:32:17, Info                         [reagentc.exe] Exit WinReSetConfig return value: 1, last error: 0x0
+2024-03-04 08:32:17, Info                         [reagentc.exe] Enter WinReSetCustomization
+2024-03-04 08:32:17, Info                         [reagentc.exe] Parameters: configWinDir: C:\Windows, pwszConfigFile: C:\Recovery\OEM\bootmenu.xml
+2024-03-04 08:32:17, Info                         [reagentc.exe] Update enhanced config info is enabled.
+2024-03-04 08:32:18, Info                         [reagentc.exe] WinRE is installed
+2024-03-04 08:32:18, Info                         [reagentc.exe] Exit WinReSetCustomization return value: 1, last error: 0x0
+2024-03-04 08:32:18, Info                         [reagentc.exe] ------------------------------------------------------
+2024-03-04 08:32:18, Info                         [reagentc.exe] -----Exiting command line: "C:\Windows\System32\reagentc.exe" /setbootshelllink /configfile "C:\Recovery\OEM\bootmenu.xml" /target "C:\Windows", Error: 0-----
+2024-03-04 08:32:18, Info                         [reagentc.exe] ------------------------------------------------------
