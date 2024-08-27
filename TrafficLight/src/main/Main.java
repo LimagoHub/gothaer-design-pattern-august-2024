@@ -7,12 +7,12 @@ public class Main {
 
         TrafficLight trafficLight = new TrafficLight();
 
-        /*
+
         for (int i = 0; i < 5; i++) {
             System.out.println(trafficLight.getColor());
             trafficLight.nextColor();
         }
 
-         */
+
     }
 }
