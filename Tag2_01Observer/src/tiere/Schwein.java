@@ -1,5 +1,8 @@
 package tiere;
 
+import events.PropertyChangedEvent;
+import events.PropertyChangedListener;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -7,7 +10,7 @@ public class Schwein {
 
     public static final int MAX_WEIGHT = 20;
     private final List<PigTooFatListener> pigTooFatListeners = new ArrayList<>();
-
+    private final List<PropertyChangedListener> propertyChangedListeners = new ArrayList<>();
     public void addPigTooFatLister(final PigTooFatListener listener) {
         pigTooFatListeners.add(listener);
     }
@@ -16,8 +19,23 @@ public class Schwein {
         pigTooFatListeners.remove(listener);
     }
 
+    public void addPropertyChangedListener(final PropertyChangedListener listener) {
+        propertyChangedListeners.add(listener);
+    }
+    public void removePropertyChangedListener(final PropertyChangedListener listener) {
+        propertyChangedListeners.remove(listener);
+    }
+
     private void firePigTooFatEvent() {
         pigTooFatListeners.forEach(ptfl->ptfl.pigTooFat(this));
+    }
+
+    private void firePropertyChangedEvent(PropertyChangedEvent event) {
+        propertyChangedListeners.forEach(el->el.propertyChanged(event));
+    }
+
+    private void firePropertyChangedEvent(String propertyName, Object oldValue, Object newValue) {
+        firePropertyChangedEvent(new PropertyChangedEvent(this, propertyName, oldValue, newValue));
     }
 
     private String name;
@@ -37,7 +55,12 @@ public class Schwein {
     }
 
     public void setName(final String name) {
-        this.name = name;
+        if (this.name != name) {
+            final var propertyChangedEvent = new PropertyChangedEvent(this, "name", this.name, name);
+            this.name = name;
+            firePropertyChangedEvent(propertyChangedEvent);
+        }
+        //firePropertyChangedEvent("name", this.name, this.name=name);
     }
 
     public int getGewicht() {
@@ -45,7 +68,7 @@ public class Schwein {
     }
 
     private void setGewicht(final int gewicht) {
-        this.gewicht = gewicht;
+        firePropertyChangedEvent("gewicht", this.gewicht, this.gewicht=gewicht);
         if(gewicht > MAX_WEIGHT) firePigTooFatEvent();
     }
 
