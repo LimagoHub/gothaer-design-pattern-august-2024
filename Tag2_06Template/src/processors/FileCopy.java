@@ -3,12 +3,12 @@ package processors;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class FileCopy extends FileProcessor {
+public class FileCopy implements CharacterHandler {
 
     private FileWriter writer;
 
     @Override
-    protected void init() {
+    public void init() {
         try {
             writer = new FileWriter("./resources/ausgabe.txt");
         } catch (IOException e) {
@@ -17,7 +17,7 @@ public class FileCopy extends FileProcessor {
     }
 
     @Override
-    protected void process(final char c) {
+    public void process(final char c) {
         try {
             writer.write(c);
         } catch (IOException e) {
@@ -26,7 +26,7 @@ public class FileCopy extends FileProcessor {
     }
 
     @Override
-    protected void dispose() {
+    public void dispose() {
         try {
             writer.close();
         } catch (IOException e) {
