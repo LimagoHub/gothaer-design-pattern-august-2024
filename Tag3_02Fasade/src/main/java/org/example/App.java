@@ -42,9 +42,9 @@ public class App
             }
             System.out.println();
             while(table.next()){
-                for(int i = 1; i <= table.getColumnCount(); i++){
-                    System.out.printf("%-30s",table.getValue(i));
-                    System.out.printf("%-30s",table.getValue(i));
+                for(int i = 0; i < table.getColumnCount(); i++){
+                    System.out.printf("%-30s",table.getColumn(i));
+                    //System.out.printf("%-30s",table.getColumn(i));
                 }
                 System.out.println();
             }
