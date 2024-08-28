@@ -1,5 +1,8 @@
 package composite;
 
+import composite.visitor.AbstractKontoVisitor;
+import composite.visitor.KontenVisitor;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Iterator;
@@ -60,4 +63,12 @@ public abstract class AbstractKontoNode implements Iterable<AbstractKontoNode> {
 
         return sb.toString();
     }
+
+    public void iterate(KontenVisitor visitor) {
+        visitor.init();
+        iterator().forEachRemaining(item->item.accept(visitor));
+        visitor.dispose();
+    }
+
+    public abstract void accept(KontenVisitor visitor);
 }
