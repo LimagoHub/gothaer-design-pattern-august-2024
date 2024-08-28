@@ -1,10 +1,11 @@
 package composite;
 
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 
-public class AbstractKontoNode implements Iterable<AbstractKontoNode> {
+public abstract class AbstractKontoNode implements Iterable<AbstractKontoNode> {
 
 
     private AbstractKontoNode parent = null;
@@ -35,17 +36,21 @@ public class AbstractKontoNode implements Iterable<AbstractKontoNode> {
     }
 
     public void print() {
-        /*System.out.println(this);
-
-        for (final AbstractKontoNode child : getChildren()) {
-            child.print();
-        }*/
-        this.iterator().forEachRemaining(System.out::println);
+       this.iterator().forEachRemaining(System.out::println);
     }
 
     @Override
     public Iterator<AbstractKontoNode> iterator() {
-        return null;
+        final List<AbstractKontoNode> items = new ArrayList<AbstractKontoNode>();
+        fillIteratorList(items);
+        return items.iterator();
+    }
+
+    private void fillIteratorList(final List<AbstractKontoNode> list) {
+        list.add(this);
+        for (final AbstractKontoNode child : getChildren()) {
+            child.fillIteratorList(list);
+        }
     }
 
     @Override
